@@ -4,7 +4,7 @@ const primaryServices = [
   {
     title: 'Septic System Installation & Replacement',
     desc: 'From new installs to full replacements, we handle every step — perc tests, permits, and proper installation. We know Northern Michigan soil and we do it right the first time.',
-    img: '/images/gallery-3.jpg',
+    img: '/images/septic.jpg',
   },
   {
     title: 'Site Preparation & Foundation Excavation',
