@@ -8,7 +8,7 @@ const primaryServices = [
   },
   {
     title: 'Site Preparation & Foundation Excavation',
-    desc: 'Building a home, pole barn, or garage? We clear the site, dig the foundation, and grade it level so your project starts on solid ground.',
+    desc: 'We provide complete site preparation and foundation excavation for homes, pole barns, and garages. We handle land clearing, excavation, and precise grading—ensuring your project starts on solid ground.',
     img: '/images/site-prep.jpg',
   },
   {
