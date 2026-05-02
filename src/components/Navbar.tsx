@@ -26,12 +26,10 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           <a href="#home" className="flex-shrink-0 flex items-center gap-3">
-            <Image src="/images/logo.jpg" alt="Great Lakes Excavating" width={60} height={60} className="rounded" />
-            <div className="hidden sm:block leading-tight">
-              <span className="block text-cream font-heading text-sm font-bold tracking-widest uppercase">Great Lakes</span>
-              <span className="block text-cream font-heading text-sm font-bold tracking-widest uppercase">Excavating</span>
-              <span className="block text-cream font-heading text-sm font-bold tracking-widest uppercase">&amp; Brushwork</span>
-            </div>
+            <Image src="/images/logo.jpg" alt="Great Lakes Excavating" width={56} height={56} className="rounded" />
+            <span className="hidden sm:block text-cream font-heading font-bold tracking-wide whitespace-nowrap text-base md:text-lg lg:text-xl">
+              Great Lakes Excavating &amp; Brushwork
+            </span>
           </a>
           <div className="hidden md:flex items-center space-x-8">
             {navLinks.map((link) => (
