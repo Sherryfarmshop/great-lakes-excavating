@@ -34,7 +34,7 @@ export default function Navbar() {
                 {link.label}
               </a>
             ))}
-            <a href="tel:2317771234" className="bg-accent-orange hover:bg-accent-orange/90 text-white px-5 py-2.5 rounded font-semibold text-sm tracking-wide transition-colors">
+            <a href="tel:2313304745" className="bg-accent-orange hover:bg-accent-orange/90 text-white px-5 py-2.5 rounded font-semibold text-sm tracking-wide transition-colors">
               Call Now
             </a>
           </div>
@@ -52,7 +52,7 @@ export default function Navbar() {
               {link.label}
             </a>
           ))}
-          <a href="tel:2317771234" className="block bg-accent-orange text-white text-center px-5 py-2.5 rounded font-semibold text-sm mt-2">
+          <a href="tel:2313304745" className="block bg-accent-orange text-white text-center px-5 py-2.5 rounded font-semibold text-sm mt-2">
             Call Now
           </a>
         </div>

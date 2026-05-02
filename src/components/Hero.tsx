@@ -19,7 +19,7 @@ export default function Hero() {
           <a href="#contact" className="bg-accent-orange hover:bg-accent-orange/90 text-white px-8 py-4 rounded text-lg font-semibold tracking-wide transition-colors shadow-lg">
             Get a Free Quote
           </a>
-          <a href="tel:2317771234" className="border-2 border-cream text-cream hover:bg-cream hover:text-dark-brown px-8 py-4 rounded text-lg font-semibold tracking-wide transition-colors">
+          <a href="tel:2313304745" className="border-2 border-cream text-cream hover:bg-cream hover:text-dark-brown px-8 py-4 rounded text-lg font-semibold tracking-wide transition-colors">
             Call Us Today
           </a>
         </div>
