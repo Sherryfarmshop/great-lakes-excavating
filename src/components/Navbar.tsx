@@ -25,8 +25,13 @@ export default function Navbar() {
     <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled ? 'bg-forest/95 backdrop-blur shadow-lg' : 'bg-forest/80 backdrop-blur-sm'}`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
-          <a href="#home" className="flex-shrink-0">
-            <Image src="/images/logo.jpg" alt="Great Lakes Excavating" width={70} height={70} className="rounded" />
+          <a href="#home" className="flex-shrink-0 flex items-center gap-3">
+            <Image src="/images/logo.jpg" alt="Great Lakes Excavating" width={60} height={60} className="rounded" />
+            <div className="hidden sm:block leading-tight">
+              <span className="text-cream font-heading text-lg font-bold tracking-wide">Great Lakes</span>
+              <br />
+              <span className="text-tan text-xs font-semibold tracking-widest uppercase">Excavating &amp; Brushwork</span>
+            </div>
           </a>
           <div className="hidden md:flex items-center space-x-8">
             {navLinks.map((link) => (
