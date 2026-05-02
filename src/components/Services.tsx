@@ -67,7 +67,7 @@ export default function Services() {
               <div className="relative w-full md:w-1/2 aspect-[16/10] rounded-lg overflow-hidden shadow-lg">
                 <Image src={svc.img} alt={svc.title} fill className="object-cover" />
               </div>
-              <div className="w-full md:w-5/12 max-w-md">
+              <div className="w-full md:w-5/12 max-w-xs">
                 <h3 className="font-heading text-2xl text-forest mb-3 font-bold">{svc.title}</h3>
                 <p className="text-dark-text/80 text-base leading-relaxed font-semibold">{svc.desc}</p>
               </div>
