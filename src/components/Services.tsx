@@ -3,7 +3,7 @@ import Image from 'next/image';
 const primaryServices = [
   {
     title: 'Septic System Installation & Replacement',
-    desc: 'From new installs to full replacements, we handle every step — perc tests, permits, and proper installation. We know Northern Michigan soil and we do it right the first time.',
+    desc: 'We install and replace septic systems across Northern Michigan, including perc test coordination, permits, excavation, and drain fields. Built for our soil—done right the first time.',
     img: '/images/septic.jpg',
   },
   {
