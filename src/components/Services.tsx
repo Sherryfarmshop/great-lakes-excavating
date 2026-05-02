@@ -23,7 +23,7 @@ const primaryServices = [
   },
   {
     title: 'Trenching',
-    desc: 'Water lines, electric, drainage — we trench clean and backfill right. Residential and commercial projects, done on schedule.',
+    desc: 'We handle trenching for water lines, electric, and drainage systems. Clean cuts, proper backfilling, and dependable work for residential and commercial projects—done on schedule.',
     img: '/images/gallery-6.jpg',
   },
 ];
