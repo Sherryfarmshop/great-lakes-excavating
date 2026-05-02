@@ -28,9 +28,9 @@ export default function Navbar() {
           <a href="#home" className="flex-shrink-0 flex items-center gap-3">
             <Image src="/images/logo.jpg" alt="Great Lakes Excavating" width={60} height={60} className="rounded" />
             <div className="hidden sm:block leading-tight">
-              <span className="text-cream font-heading text-lg font-bold tracking-wide">Great Lakes</span>
-              <br />
-              <span className="text-tan text-xs font-semibold tracking-widest uppercase">Excavating &amp; Brushwork</span>
+              <span className="block text-cream font-heading text-lg font-bold tracking-wide">Great Lakes</span>
+              <span className="block text-cream font-heading text-lg font-bold tracking-wide">Excavating</span>
+              <span className="block text-cream font-heading text-lg font-bold tracking-wide">&amp; Brushwork</span>
             </div>
           </a>
           <div className="hidden md:flex items-center space-x-8">
