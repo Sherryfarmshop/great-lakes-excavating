@@ -24,7 +24,7 @@ const primaryServices = [
   {
     title: 'Trenching',
     desc: 'We handle trenching for water lines, electric, and drainage systems. Clean cuts, proper backfilling, and dependable work for residential and commercial projects—done on schedule.',
-    img: '/images/gallery-6.jpg',
+    img: '/images/gallery-1.jpg',
   },
 ];
 
