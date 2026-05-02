@@ -19,7 +19,7 @@ const primaryServices = [
   {
     title: 'Land Clearing',
     desc: 'Professional land clearing services for trees, brush, stumps, and overgrown lots. We handle lot clearing, brush removal, stump removal, and site prep for construction—whether you\'re preparing to build or just reclaiming your property, we\'ll open it up.',
-    img: '/images/gallery-2.jpg',
+    img: '/images/land-clearing.jpg',
   },
   {
     title: 'Trenching',
