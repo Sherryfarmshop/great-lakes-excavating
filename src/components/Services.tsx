@@ -14,7 +14,7 @@ const primaryServices = [
   {
     title: 'Driveway Installation & Grading',
     desc: 'New gravel driveways, regrading existing ones, or fixing washouts from spring runoff. We build driveways that hold up through Michigan winters.',
-    img: '/images/gallery-4.jpg',
+    img: '/images/driveway.jpg',
   },
   {
     title: 'Land Clearing',
