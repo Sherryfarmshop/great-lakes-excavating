@@ -84,7 +84,7 @@ export default function Services() {
             <div className="p-10 flex flex-col justify-center">
               <h3 className="font-heading text-3xl text-accent-orange mb-4">Demolition Services</h3>
               <p className="text-cream/90 text-lg leading-relaxed mb-6">
-                After the devastating flooding in Cheboygan this year, we&apos;ve been on the ground helping families tear down damaged homes, barns, and structures. If your property was hit, we&apos;re here to help you clear the wreckage and start fresh. Safe, efficient demolition — houses, garages, barns, and more.
+                Professional demolition services across Northern Michigan. We safely tear down houses, barns, garages, and damaged structures, including storm and flood cleanup. From full structural demolition to site clearing and debris removal, we handle the job start to finish so you can rebuild on solid ground.
               </p>
               <a href="#contact" className="inline-block bg-accent-orange hover:bg-accent-orange/90 text-white px-8 py-3 rounded text-lg font-semibold transition-colors w-fit">
                 Get Flood Damage Help →
