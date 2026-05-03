@@ -6,7 +6,7 @@ export default function About() {
       <div className="max-w-7xl mx-auto px-6">
         <div className="grid md:grid-cols-2 gap-12 lg:gap-20 items-center">
           <div className="relative aspect-[4/3] rounded-lg overflow-hidden shadow-xl">
-            <Image src="/images/gallery-2.jpg" alt="Great Lakes Excavating crew at work" fill className="object-cover" />
+            <Image src="/images/about.jpg" alt="Kubota tractor at sunset on the farm" fill className="object-cover" />
           </div>
           <div>
             <h2 className="font-heading text-4xl text-cream mb-6">Built on Hard Work and Handshakes</h2>
