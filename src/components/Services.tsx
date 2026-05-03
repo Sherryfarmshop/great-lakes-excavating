@@ -31,7 +31,7 @@ const primaryServices = [
 const secondaryServices = [
   {
     title: 'Drainage & Ditch Work',
-    desc: 'Standing water on your property? We dig ditches, install drain tile, and redirect water flow to keep your land dry and usable.',
+    desc: 'Dealing with standing water or poor drainage? We handle ditch digging, drain tile installation, yard drainage, and water control across Northern Michigan. From wet yards to large properties, we redirect water properly to keep your land dry and usable.',
     img: '/images/gallery-5.jpg',
   },
   {
