@@ -1,13 +1,17 @@
 import Image from 'next/image';
 
 const images = [
-  { src: '/images/gallery-1.jpg', alt: 'Excavation site work' },
-  { src: '/images/gallery-2.jpg', alt: 'Land clearing project' },
-  { src: '/images/gallery-3.jpg', alt: 'Septic system installation' },
-  { src: '/images/gallery-4.jpg', alt: 'Driveway grading' },
-  { src: '/images/gallery-5.jpg', alt: 'Demolition work' },
-  { src: '/images/gallery-6.jpg', alt: 'Trenching and drainage' },
-  { src: '/images/gallery-7.jpg', alt: 'Finished grading project' },
+  { src: '/images/gallery-2.jpg', alt: 'Excavation project' },
+  { src: '/images/gallery-3.jpg', alt: 'Site work in progress' },
+  { src: '/images/gallery-4.jpg', alt: 'Grading and earthwork' },
+  { src: '/images/gallery-6.jpg', alt: 'Equipment at work' },
+  { src: '/images/septic.jpg', alt: 'Septic system installation' },
+  { src: '/images/site-prep.jpg', alt: 'Site preparation' },
+  { src: '/images/driveway.jpg', alt: 'Driveway installation' },
+  { src: '/images/land-clearing.jpg', alt: 'Land clearing' },
+  { src: '/images/demolition.jpg', alt: 'Demolition work' },
+  { src: '/images/culvert.jpg', alt: 'Culvert installation' },
+  { src: '/images/pond.jpg', alt: 'Pond construction' },
 ];
 
 export default function Gallery() {
