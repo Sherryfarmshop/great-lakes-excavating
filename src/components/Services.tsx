@@ -69,7 +69,7 @@ export default function Services() {
               </div>
               <div className="w-full md:w-5/12 max-w-xs">
                 <h3 className="font-heading text-2xl text-forest mb-3 font-bold">{svc.title}</h3>
-                <p className="text-dark-text/80 text-base leading-relaxed font-semibold">{svc.desc}</p>
+                <p className="text-dark-text/80 text-base leading-relaxed font-semibold text-justify">{svc.desc}</p>
               </div>
             </div>
           ))}
@@ -83,7 +83,7 @@ export default function Services() {
             </div>
             <div className="p-10 flex flex-col justify-center">
               <h3 className="font-heading text-3xl text-accent-orange mb-4">Demolition Services</h3>
-              <p className="text-cream/90 text-lg leading-relaxed mb-6">
+              <p className="text-cream/90 text-lg leading-relaxed mb-6 text-justify">
                 Professional demolition services across Northern Michigan. We safely tear down houses, barns, garages, and damaged structures, including storm and flood cleanup. From full structural demolition to site clearing and debris removal, we handle the job start to finish so you can rebuild on solid ground.
               </p>
               <a href="#contact" className="inline-block bg-accent-orange hover:bg-accent-orange/90 text-white px-8 py-3 rounded text-lg font-semibold transition-colors w-fit">
@@ -103,7 +103,7 @@ export default function Services() {
               </div>
               <div className="p-5">
                 <h4 className="font-heading text-lg text-forest mb-2">{svc.title}</h4>
-                <p className="text-dark-text/75 text-sm leading-relaxed">{svc.desc}</p>
+                <p className="text-dark-text/75 text-sm leading-relaxed text-justify">{svc.desc}</p>
               </div>
             </div>
           ))}
