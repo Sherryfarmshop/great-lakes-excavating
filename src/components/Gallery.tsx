@@ -11,9 +11,9 @@ export default function Gallery() {
   return (
     <section id="gallery" className="py-20 bg-tan/30">
       <div className="max-w-7xl mx-auto px-6">
-        <h2 className="font-heading text-4xl text-forest text-center mb-4">Our Work</h2>
-        <p className="text-center text-dark-text/70 text-lg mb-12 max-w-2xl mx-auto">
-          Every project tells a story. Here&apos;s a look at what we do across Northern Michigan.
+        <h2 className="font-heading text-4xl md:text-5xl text-forest text-center mb-4 font-black uppercase tracking-wider">In the Dirt</h2>
+        <p className="text-center text-dark-text/80 text-xl font-bold mb-12 max-w-2xl mx-auto italic">
+          &ldquo;A look at the work—done across Northern Michigan.&rdquo;
         </p>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
           {images.map((img, i) => (
