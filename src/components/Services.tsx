@@ -37,7 +37,7 @@ const secondaryServices = [
   {
     title: 'Culverts & Water Control',
     desc: 'We install and replace culverts for proper water flow across driveways and properties in Northern Michigan. Correct sizing and placement prevent washouts, erosion, and drainage issues.',
-    img: '/images/gallery-7.jpg',
+    img: '/images/culvert.jpg',
   },
   {
     title: 'Gravel Delivery & Spreading',
