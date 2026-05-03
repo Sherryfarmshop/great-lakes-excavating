@@ -79,7 +79,7 @@ export default function Services() {
         <div className="bg-dark-brown rounded-lg overflow-hidden mb-16 shadow-xl">
           <div className="grid md:grid-cols-2">
             <div className="relative aspect-[16/10] md:aspect-auto">
-              <Image src="/images/gallery-5.jpg" alt="Demolition services" fill className="object-cover" />
+              <Image src="/images/demolition.jpg" alt="Demolition services" fill className="object-cover" />
             </div>
             <div className="p-10 flex flex-col justify-center">
               <h3 className="font-heading text-3xl text-accent-orange mb-4">Demolition Services</h3>
