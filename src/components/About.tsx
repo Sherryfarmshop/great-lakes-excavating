@@ -12,31 +12,20 @@ export default function About() {
             <h2 className="font-heading text-4xl text-cream mb-6">Built on Hard Work and Handshakes</h2>
             <div className="space-y-4 text-cream/85 text-lg leading-relaxed">
               <p>
-                Great Lakes Excavating &amp; Brushwork is a Northern Michigan company built the old-fashioned way — on hard work, fair prices, and doing what we say we&apos;re going to do.
+                Great Lakes Excavating &amp; Brushwork is a Northern Michigan company built the old-fashioned way — hard work, fair prices, and doing what we say we&apos;ll do.
               </p>
               <p>
-                We know this land because we live on it. We understand the clay, the sand, the frost lines, and the water tables. When you hire us, you&apos;re not getting a crew from downstate reading a manual — you&apos;re getting experienced operators who&apos;ve worked these soils for years.
+                We know this land because we live on it. From clay and sand to frost lines and water tables, we understand what it takes to get the job done right.
               </p>
               <p>
-                From septic installs to full-scale land clearing, we show up on time, do the job right, and leave your property better than we found it. No shortcuts, no excuses.
+                When you hire us, you&apos;re not getting a crew learning on your job — you&apos;re getting experienced operators who&apos;ve worked this ground for years.
+              </p>
+              <p>
+                From septic installs to full-scale land clearing, we show up on time, do it right, and leave your property better than we found it. No shortcuts. No excuses.
               </p>
               <p className="text-accent-orange font-semibold text-xl">
-                Licensed. Insured. Locally owned. Ready to work.
+                Licensed. Insured. Locally Owned. Ready to Work.
               </p>
-            </div>
-            <div className="mt-8 flex flex-wrap gap-6">
-              <div className="text-center">
-                <div className="text-3xl font-bold text-accent-orange">100+</div>
-                <div className="text-cream/60 text-sm">Projects Completed</div>
-              </div>
-              <div className="text-center">
-                <div className="text-3xl font-bold text-accent-orange">5★</div>
-                <div className="text-cream/60 text-sm">Customer Rating</div>
-              </div>
-              <div className="text-center">
-                <div className="text-3xl font-bold text-accent-orange">Local</div>
-                <div className="text-cream/60 text-sm">Owned & Operated</div>
-              </div>
             </div>
           </div>
         </div>
