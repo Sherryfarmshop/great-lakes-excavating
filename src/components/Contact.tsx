@@ -48,9 +48,9 @@ export default function Contact() {
             </div>
 
             <div className="bg-dark-brown rounded-lg p-6 text-cream">
-              <p className="font-semibold text-accent-orange mb-2">⚠️ Cheboygan Flood Damage?</p>
+              <p className="font-bold text-accent-orange text-lg mb-2">Northern Michigan Flood &amp; Storm Damage</p>
               <p className="text-cream/85 text-sm leading-relaxed">
-                If your property was damaged in the recent flooding, call us. We&apos;re prioritizing demolition and cleanup for affected families.
+                If you were hit, call us. We&apos;re prioritizing cleanup and demolition for affected families and properties.
               </p>
             </div>
           </div>
