@@ -24,7 +24,7 @@ export default function About() {
                 From septic installs to full-scale land clearing, we show up on time, do it right, and leave your property better than we found it. No shortcuts. No excuses.
               </p>
               <p className="text-accent-orange font-semibold text-xl">
-                Licensed. Insured. Locally Owned. Ready to Work.
+                Licensed. Insured. Locally Owned.<br />Ready to Work.
               </p>
             </div>
           </div>
