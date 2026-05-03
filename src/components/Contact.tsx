@@ -52,7 +52,7 @@ export default function Contact() {
 
           {/* Quote Form */}
           <div className="bg-white rounded-lg p-8 shadow-lg border-t-4 border-forest">
-            <h3 className="font-heading text-2xl text-forest mb-6">Request a Free Quote</h3>
+            <h3 className="font-heading text-2xl text-forest mb-6">Request a Free Estimate</h3>
             {submitted ? (
               <div className="text-center py-12">
                 <div className="text-5xl mb-4">✅</div>
@@ -95,7 +95,7 @@ export default function Contact() {
                   <textarea id="details" name="details" rows={4} className="w-full border border-tan rounded px-4 py-3 focus:outline-none focus:ring-2 focus:ring-forest text-dark-text resize-none" placeholder="Tell us about your project — location, timeline, anything helpful..." />
                 </div>
                 <button type="submit" className="w-full bg-accent-orange hover:bg-accent-orange/90 text-white py-4 rounded text-lg font-semibold tracking-wide transition-colors shadow-md">
-                  Send Quote Request
+                  Send Estimate Request
                 </button>
               </form>
             )}
