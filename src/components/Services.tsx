@@ -46,7 +46,7 @@ const secondaryServices = [
   },
   {
     title: 'Shoreline Protection & Breakwall Installation',
-    desc: 'We build and repair breakwalls, seawalls, and shoreline protection systems across Northern Michigan. Protect your waterfront property from erosion and wave damage with properly engineered solutions.',
+    desc: 'We build shoreline protection that lasts — including breakwalls, riprap, and erosion control for lakefront properties across Northern Michigan. Whether you\'re dealing with wave damage, erosion, or a failing shoreline, we stabilize and protect your waterfront the right way.',
     img: '/images/gallery-1.jpg',
   },
 ];
