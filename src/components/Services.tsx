@@ -12,6 +12,11 @@ const primaryServices = [
     img: '/images/site-prep.jpg',
   },
   {
+    title: 'Shoreline Protection & Breakwall Installation',
+    desc: 'We build shoreline protection that lasts — including breakwalls, riprap, and erosion control for lakefront properties across Northern Michigan. Whether you\'re dealing with wave damage, erosion, or a failing shoreline, we stabilize and protect your waterfront the right way.',
+    img: '/images/gallery-7.jpg',
+  },
+  {
     title: 'Driveway Installation & Grading',
     desc: 'We install gravel driveways, regrade existing ones, and repair washouts. Built for proper drainage and durability—so your driveway holds up through Michigan winters.',
     img: '/images/driveway.jpg',
@@ -43,11 +48,6 @@ const secondaryServices = [
     title: 'Trenching',
     desc: 'We handle trenching for water lines, electric, and drainage systems. Clean cuts, proper backfilling, and dependable work for residential and commercial projects—done on schedule.',
     img: '/images/gallery-1.jpg',
-  },
-  {
-    title: 'Shoreline Protection & Breakwall Installation',
-    desc: 'We build shoreline protection that lasts — including breakwalls, riprap, and erosion control for lakefront properties across Northern Michigan. Whether you\'re dealing with wave damage, erosion, or a failing shoreline, we stabilize and protect your waterfront the right way.',
-    img: '/images/gallery-7.jpg',
   },
 ];
 
