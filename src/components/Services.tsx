@@ -22,9 +22,9 @@ const primaryServices = [
     img: '/images/land-clearing.jpg',
   },
   {
-    title: 'Trenching',
-    desc: 'We handle trenching for water lines, electric, and drainage systems. Clean cuts, proper backfilling, and dependable work for residential and commercial projects—done on schedule.',
-    img: '/images/gallery-1.jpg',
+    title: 'Pond Digging, Pond Construction & Excavation',
+    desc: 'We provide pond digging and excavation for homes, farms, and recreational properties. From new pond construction to enlarging or reshaping existing ponds, we ensure proper depth, grading, and drainage for long-lasting results.',
+    img: '/images/pond.jpg',
   },
 ];
 
@@ -40,9 +40,9 @@ const secondaryServices = [
     img: '/images/culvert.jpg',
   },
   {
-    title: 'Pond Digging, Pond Construction & Excavation',
-    desc: 'We provide pond digging and excavation for homes, farms, and recreational properties. From new pond construction to enlarging or reshaping existing ponds, we ensure proper depth, grading, and drainage for long-lasting results.',
-    img: '/images/pond.jpg',
+    title: 'Trenching',
+    desc: 'We handle trenching for water lines, electric, and drainage systems. Clean cuts, proper backfilling, and dependable work for residential and commercial projects—done on schedule.',
+    img: '/images/gallery-1.jpg',
   },
   {
     title: 'Shoreline Protection & Breakwall Installation',
