@@ -22,8 +22,7 @@ export default function Contact() {
           {/* Contact Info */}
           <div className="space-y-8">
             <div>
-              <h3 className="font-heading text-2xl text-forest mb-4">Call Us</h3>
-              <p className="text-dark-text/80 text-lg font-bold italic mb-2">&ldquo;Call. Text. Let&apos;s get it done.&rdquo;</p>
+              <h3 className="font-heading text-2xl text-forest mb-2">Call. Text. Let&apos;s get it done.</h3>
               <a href="tel:2313304745" className="text-3xl font-bold text-accent-orange hover:text-accent-orange/80 transition-colors">
                 (231) 330-4745
               </a>
