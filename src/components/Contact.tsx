@@ -32,10 +32,12 @@ export default function Contact() {
             </div>
 
             <div>
-              <h3 className="font-heading text-2xl text-forest mb-4">Service Area</h3>
+              <h3 className="font-heading text-2xl text-forest mb-4">Where We Work</h3>
+              <p className="text-dark-text font-bold text-lg mb-1">Northern Michigan</p>
               <p className="text-dark-text/80 leading-relaxed">
-                We serve all of Northern Michigan, including Cheboygan, Charlevoix, Petoskey, Gaylord, Indian River, Mackinaw City, Harbor Springs, and surrounding communities.
+                Charlevoix &bull; Petoskey &bull; Boyne City &bull; Traverse City &bull; Gaylord &bull; Cheboygan
               </p>
+              <p className="text-dark-text/60 text-sm mt-1">and surrounding areas</p>
             </div>
 
             <div>
