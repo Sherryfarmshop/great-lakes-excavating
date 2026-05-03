@@ -55,9 +55,9 @@ export default function Services() {
   return (
     <section id="services" className="py-20 bg-cream">
       <div className="max-w-7xl mx-auto px-6">
-        <h2 className="font-heading text-4xl text-forest text-center mb-4">What We Do</h2>
-        <p className="text-center text-dark-text/70 text-lg mb-16 max-w-2xl mx-auto">
-          From breaking ground to finishing grade, we handle the heavy work so you don&apos;t have to.
+        <h2 className="font-heading text-4xl md:text-5xl text-forest text-center mb-4 font-black uppercase tracking-wider">The Work Starts Here</h2>
+        <p className="text-center text-dark-text/80 text-xl font-bold mb-16 max-w-2xl mx-auto italic">
+          &ldquo;We handle the dirt work—done right the first time.&rdquo;
         </p>
 
         {/* Primary Services */}
