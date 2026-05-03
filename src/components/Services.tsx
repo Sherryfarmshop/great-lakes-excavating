@@ -36,7 +36,7 @@ const secondaryServices = [
   },
   {
     title: 'Culverts & Water Control',
-    desc: 'We install and replace culverts to manage water crossings on your driveway or property. Properly sized, properly placed.',
+    desc: 'We install and replace culverts for proper water flow across driveways and properties in Northern Michigan. Correct sizing and placement prevent washouts, erosion, and drainage issues.',
     img: '/images/gallery-7.jpg',
   },
   {
