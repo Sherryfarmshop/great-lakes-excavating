@@ -13,9 +13,9 @@ export default function Contact() {
   return (
     <section id="contact" className="py-20 bg-cream">
       <div className="max-w-7xl mx-auto px-6">
-        <h2 className="font-heading text-4xl text-forest text-center mb-4">Get In Touch</h2>
-        <p className="text-center text-dark-text/70 text-lg mb-12 max-w-2xl mx-auto">
-          Ready to start your project? Call us directly or fill out the form below for a free estimate.
+        <h2 className="font-heading text-4xl md:text-5xl text-forest text-center mb-4 font-black uppercase tracking-wider">Let&apos;s Get to Work</h2>
+        <p className="text-center text-dark-text/80 text-xl font-bold mb-12 max-w-2xl mx-auto italic">
+          &ldquo;Call. Text. Let&apos;s get it done.&rdquo;
         </p>
 
         <div className="grid md:grid-cols-2 gap-12 max-w-5xl mx-auto">
