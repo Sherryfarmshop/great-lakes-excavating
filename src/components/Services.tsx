@@ -26,14 +26,14 @@ const primaryServices = [
     desc: 'Professional land clearing services for trees, brush, stumps, and overgrown lots. We handle lot clearing, brush removal, stump removal, and site prep for construction—whether you\'re preparing to build or just reclaiming your property, we\'ll open it up.',
     img: '/images/land-clearing.jpg',
   },
+];
+
+const secondaryServices = [
   {
     title: 'Pond Digging, Pond Construction & Excavation',
     desc: 'We provide pond digging and excavation for homes, farms, and recreational properties. From new pond construction to enlarging or reshaping existing ponds, we ensure proper depth, grading, and drainage for long-lasting results.',
     img: '/images/pond.jpg',
   },
-];
-
-const secondaryServices = [
   {
     title: 'Drainage & Ditch Work',
     desc: 'Dealing with standing water or poor drainage? We handle ditch digging, drain tile installation, yard drainage, and water control across Northern Michigan. From wet yards to large properties, we redirect water properly to keep your land dry and usable.',
