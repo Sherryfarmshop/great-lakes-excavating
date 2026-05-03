@@ -32,7 +32,7 @@ export default function Contact() {
             </div>
 
             <div>
-              <h3 className="font-heading text-2xl text-forest mb-4">Where We Work</h3>
+              <h3 className="font-heading text-2xl text-forest mb-1">Where We Work</h3>
               <p className="text-dark-text font-bold text-lg mb-1">Northern Michigan</p>
               <p className="text-dark-text/80 leading-relaxed">
                 Charlevoix &bull; Petoskey &bull; Boyne City &bull; Traverse City &bull; Gaylord &bull; Cheboygan
