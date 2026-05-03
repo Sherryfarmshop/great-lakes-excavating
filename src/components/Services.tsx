@@ -40,8 +40,8 @@ const secondaryServices = [
     img: '/images/culvert.jpg',
   },
   {
-    title: 'Gravel Delivery & Spreading',
-    desc: 'Need gravel? We deliver and spread it — driveways, parking areas, job sites. Multiple grades available.',
+    title: 'Pond Digging, Pond Construction & Excavation',
+    desc: 'We provide pond digging and excavation for homes, farms, and recreational properties. From new pond construction to enlarging or reshaping existing ponds, we ensure proper depth, grading, and drainage for long-lasting results.',
     img: '/images/gallery-4.jpg',
   },
   {
