@@ -9,8 +9,8 @@ export default function About() {
             <Image src="/images/about.jpg" alt="Kubota tractor at sunset on the farm" fill className="object-cover" />
           </div>
           <div>
-            <h2 className="font-heading text-4xl text-cream mb-6">Built on Hard Work<br />and Handshakes</h2>
-            <div className="space-y-4 text-cream/85 text-lg leading-relaxed font-semibold max-w-sm">
+            <h2 className="font-heading text-4xl text-cream mb-6 text-center">Built on Hard Work<br />and Handshakes</h2>
+            <div className="space-y-4 text-cream/85 text-lg leading-relaxed font-semibold max-w-md text-justify">
               <p>
                 Great Lakes Excavating &amp; Brushwork is a Northern Michigan company built the old-fashioned way — hard work, fair prices, and doing what we say we&apos;ll do.
               </p>
