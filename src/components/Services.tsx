@@ -45,8 +45,8 @@ const secondaryServices = [
     img: '/images/gallery-4.jpg',
   },
   {
-    title: 'Final Grading & Yard Leveling',
-    desc: 'After construction or just to clean up your yard, we grade it smooth and ready for seed, sod, or landscaping.',
+    title: 'Shoreline Protection & Breakwall Installation',
+    desc: 'We build and repair breakwalls, seawalls, and shoreline protection systems across Northern Michigan. Protect your waterfront property from erosion and wave damage with properly engineered solutions.',
     img: '/images/gallery-1.jpg',
   },
 ];
