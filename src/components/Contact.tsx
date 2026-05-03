@@ -41,7 +41,7 @@ export default function Contact() {
             </div>
 
             <div>
-              <h3 className="font-heading text-2xl text-forest mb-4">Hours</h3>
+              <h3 className="font-heading text-2xl text-forest mb-1">Hours</h3>
               <p className="text-dark-text/80">Monday – Friday: 7:00 AM – 6:00 PM</p>
               <p className="text-dark-text/80">Saturday: By appointment</p>
               <p className="text-dark-text/60 text-sm mt-2">Emergency demolition and flood work available 7 days a week.</p>
