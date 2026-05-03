@@ -13,16 +13,14 @@ export default function Contact() {
   return (
     <section id="contact" className="py-20 bg-cream">
       <div className="max-w-7xl mx-auto px-6">
-        <h2 className="font-heading text-4xl md:text-5xl text-forest text-center mb-4 font-black uppercase tracking-wider">Let&apos;s Get to Work</h2>
-        <p className="text-center text-dark-text/80 text-xl font-bold mb-12 max-w-2xl mx-auto italic">
-          &ldquo;Call. Text. Let&apos;s get it done.&rdquo;
-        </p>
+        <h2 className="font-heading text-4xl md:text-5xl text-forest text-center mb-12 font-black uppercase tracking-wider">Let&apos;s Get to Work</h2>
 
         <div className="grid md:grid-cols-2 gap-12 max-w-5xl mx-auto">
           {/* Contact Info */}
           <div className="space-y-8">
             <div>
               <h3 className="font-heading text-2xl text-forest mb-4">Call Us</h3>
+              <p className="text-dark-text/80 text-lg font-bold italic mb-2">&ldquo;Call. Text. Let&apos;s get it done.&rdquo;</p>
               <a href="tel:2313304745" className="text-3xl font-bold text-accent-orange hover:text-accent-orange/80 transition-colors">
                 (231) 330-4745
               </a>
