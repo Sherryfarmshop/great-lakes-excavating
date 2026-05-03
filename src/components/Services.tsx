@@ -19,7 +19,7 @@ const primaryServices = [
   {
     title: 'Driveway Installation & Grading',
     desc: 'We install gravel driveways, regrade existing ones, and repair washouts. Built for proper drainage and durability—so your driveway holds up through Michigan winters.',
-    img: '/images/driveway.jpg',
+    img: '/images/driveway-new.jpg',
   },
   {
     title: 'Land Clearing',

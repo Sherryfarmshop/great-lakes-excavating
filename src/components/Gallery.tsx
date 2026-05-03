@@ -5,6 +5,7 @@ const images = [
   { src: '/images/gallery-3.jpg', alt: 'Site work in progress' },
   { src: '/images/gallery-4.jpg', alt: 'Grading and earthwork' },
   { src: '/images/gallery-6.jpg', alt: 'Equipment at work' },
+  { src: '/images/driveway.jpg', alt: 'Driveway grading work' },
 ];
 
 export default function Gallery() {
