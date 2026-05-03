@@ -82,16 +82,16 @@ export default function Contact() {
                   <label htmlFor="service" className="block text-sm font-semibold text-dark-text mb-1">Service Needed</label>
                   <select id="service" name="service" required className="w-full border border-tan rounded px-4 py-3 focus:outline-none focus:ring-2 focus:ring-forest text-dark-text bg-white">
                     <option value="">Select a service...</option>
-                    <option>Septic System</option>
-                    <option>Site Preparation</option>
-                    <option>Driveway Installation</option>
+                    <option>Septic System Installation &amp; Replacement</option>
+                    <option>Site Preparation &amp; Foundation Excavation</option>
+                    <option>Shoreline Protection &amp; Breakwall Installation</option>
+                    <option>Driveway Installation &amp; Grading</option>
                     <option>Land Clearing</option>
-                    <option>Trenching</option>
                     <option>Demolition</option>
-                    <option>Drainage / Ditch Work</option>
-                    <option>Culverts</option>
-                    <option>Gravel Delivery</option>
-                    <option>Final Grading</option>
+                    <option>Pond Digging &amp; Construction</option>
+                    <option>Drainage &amp; Ditch Work</option>
+                    <option>Culverts &amp; Water Control</option>
+                    <option>Trenching</option>
                     <option>Other</option>
                   </select>
                 </div>
