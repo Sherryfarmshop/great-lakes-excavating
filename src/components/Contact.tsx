@@ -42,7 +42,7 @@ export default function Contact() {
               <div>
                 <h3 className="font-heading text-base text-forest uppercase tracking-wide font-bold mb-1">Where We Work</h3>
                 <p className="text-dark-text/80 text-sm leading-relaxed">
-                  Charlevoix &bull; Petoskey &bull; Boyne City &bull; Traverse City &bull; Gaylord &bull; Cheboygan &bull; and surrounding areas
+                  We provide excavation, land clearing, drainage, and site work services across Northern Michigan, including Charlevoix, Petoskey, Boyne City, Traverse City, Gaylord, Cheboygan, and surrounding areas.
                 </p>
               </div>
 
