@@ -38,11 +38,11 @@ export default function About() {
               </div>
 
               {/* Signature */}
-              <div className="mt-10 pt-6 border-t border-[#F2E8D8]/15">
-                <p className="text-[#F2E8D8]/60 text-base italic" style={{ fontFamily: "Georgia, serif" }}>
+              <div className="mt-6 pt-5 border-t border-[#F2E8D8]/20">
+                <p className="text-[#F2E8D8] text-lg italic" style={{ fontFamily: "Georgia, serif" }}>
                   — Scott Cleland
                 </p>
-                <p className="text-[#F2E8D8]/40 text-sm tracking-wide mt-0.5" style={{ fontFamily: "Georgia, serif" }}>
+                <p className="text-[#D4C9B5] text-base tracking-wide mt-1" style={{ fontFamily: "Georgia, serif" }}>
                   Owner-Operator, Northwoods Landwork
                 </p>
               </div>
