@@ -17,8 +17,14 @@ export default function Contact() {
         <p className="text-center text-dark-text/80 text-xl font-bold max-w-2xl mx-auto italic">
           Call. Text. Let&apos;s get it done.
         </p>
-        <p className="text-center text-dark-text/70 text-lg mb-12 max-w-2xl mx-auto">
+        <p className="text-center text-dark-text/70 text-lg mb-4 max-w-2xl mx-auto">
           No runaround. Just straight answers.
+        </p>
+        <p className="text-center text-dark-text/60 text-base mb-8 max-w-2xl mx-auto">
+          Call your local Northern Michigan excavation contractor today for a free estimate.
+        </p>
+        <p className="text-center text-dark-text/50 text-sm mb-12 max-w-xl mx-auto">
+          <strong className="text-dark-text/70">Areas We Serve:</strong> We serve Northern Michigan, including Charlevoix, Petoskey, Boyne City, Traverse City, Gaylord, Cheboygan, and surrounding communities.
         </p>
 
         <div className="grid md:grid-cols-2 gap-12 max-w-5xl mx-auto">

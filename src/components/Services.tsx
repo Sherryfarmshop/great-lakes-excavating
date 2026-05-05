@@ -22,31 +22,31 @@ const primaryServices = [
     img: '/images/driveway-new.jpg',
   },
   {
-    title: 'Land Clearing',
-    desc: 'We clear trees, brush, stumps, and overgrown lots to prepare your land for building or use. Whether you\'re starting a new project or reclaiming your property, we open it up and get it ready for the next step.',
+    title: 'Land Clearing in Northern Michigan',
+    desc: 'We clear trees, brush, stumps, and overgrown lots across Northern Michigan. Whether you\'re starting a new project in Charlevoix, Petoskey, or Gaylord — or reclaiming your property — we open it up and get it ready for the next step.',
     img: '/images/land-clearing.jpg',
   },
 ];
 
 const secondaryServices = [
   {
-    title: 'Pond Digging, Pond Construction & Excavation',
-    desc: 'Professional pond excavation and construction for homes, farms, and rural properties across Northern Michigan. Built for proper depth, grading, and long-term drainage.',
+    title: 'Pond Digging & Pond Construction in Northern Michigan',
+    desc: 'Professional pond excavation and construction for homes, farms, and rural properties in Charlevoix, Petoskey, Gaylord, and surrounding Northern Michigan areas. Built for proper depth, grading, and long-term drainage.',
     img: '/images/pond.jpg',
   },
   {
-    title: 'Drainage & Ditch Work',
-    desc: 'Solve standing water and drainage issues with expert ditching, drain tile installation, and grading. We redirect water properly to keep your property dry and usable.',
+    title: 'Drainage & Ditch Work in Northern Michigan',
+    desc: 'Solve standing water and drainage issues with expert ditching, drain tile installation, and grading. Serving properties across Charlevoix, Petoskey, Boyne City, and Northern Michigan.',
     img: '/images/gallery-5.jpg',
   },
   {
     title: 'Culverts & Water Control',
-    desc: 'Installation and replacement of culverts for proper water flow across driveways and properties. Correct sizing and placement prevent washouts and erosion.',
+    desc: 'Installation and replacement of culverts for proper water flow across driveways and properties in Northern Michigan. Correct sizing and placement prevent washouts and erosion.',
     img: '/images/culvert.jpg',
   },
   {
-    title: 'Trenching',
-    desc: 'Precision trenching for water lines, electrical, and drainage systems. Clean cuts, proper backfilling, and dependable work for residential and commercial projects.',
+    title: 'Trenching Services in Northern Michigan',
+    desc: 'Precision trenching for water lines, electrical, and drainage systems across Charlevoix, Petoskey, Traverse City, and surrounding areas. Clean cuts, proper backfilling, dependable work.',
     img: '/images/gallery-1.jpg',
   },
 ];

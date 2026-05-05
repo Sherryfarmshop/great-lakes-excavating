@@ -4,20 +4,20 @@ import Image from 'next/image';
 // Row 2 — work in progress: job site variety
 // Row 3 — supporting: closeups + finishing work
 const images = [
-  { src: '/images/driveway-new.jpg', alt: 'Skid steer grading driveway' },
-  { src: '/images/gallery-before-after-driveway.jpg', alt: 'Driveway transformation' },
-  { src: '/images/gallery-before-after-pond.jpg', alt: 'Pond construction' },
-  { src: '/images/gallery-7.jpg', alt: 'Shoreline and waterfront work' },
+  { src: '/images/driveway-new.jpg', alt: 'Skid steer grading driveway in Northern Michigan' },
+  { src: '/images/gallery-before-after-driveway.jpg', alt: 'Driveway installation and grading project Charlevoix Michigan' },
+  { src: '/images/gallery-before-after-pond.jpg', alt: 'Pond excavation and construction Northern Michigan' },
+  { src: '/images/gallery-7.jpg', alt: 'Shoreline protection and breakwall installation Northern Michigan' },
 
-  { src: '/images/gallery-before-after-clearing.jpg', alt: 'Land clearing project' },
-  { src: '/images/gallery-before-after-drainage.jpg', alt: 'Drainage and grading' },
-  { src: '/images/gallery-3.jpg', alt: 'Site work in progress' },
-  { src: '/images/gallery-2.jpg', alt: 'Excavation project' },
+  { src: '/images/gallery-before-after-clearing.jpg', alt: 'Land clearing project Petoskey Michigan' },
+  { src: '/images/gallery-before-after-drainage.jpg', alt: 'Drainage and ditch work Northern Michigan' },
+  { src: '/images/gallery-3.jpg', alt: 'Excavation site preparation Northern Michigan' },
+  { src: '/images/gallery-2.jpg', alt: 'Excavation contractor working in Northern Michigan' },
 
-  { src: '/images/gallery-before-after-culvert.jpg', alt: 'Culvert installation' },
-  { src: '/images/gallery-5.jpg', alt: 'Ditch and drainage work' },
-  { src: '/images/land-clearing.jpg', alt: 'Land clearing' },
-  { src: '/images/gallery-6.jpg', alt: 'Equipment on site' },
+  { src: '/images/gallery-before-after-culvert.jpg', alt: 'Culvert installation and water control Northern Michigan' },
+  { src: '/images/gallery-5.jpg', alt: 'Ditch and drainage installation Charlevoix Michigan' },
+  { src: '/images/land-clearing.jpg', alt: 'Land clearing and brush removal Northern Michigan' },
+  { src: '/images/gallery-6.jpg', alt: 'Excavation equipment on job site Northern Michigan' },
 ];
 
 export default function Gallery() {

@@ -2,8 +2,8 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'Northwoods Landwork | Northern Michigan',
-  description: 'Professional excavation, land clearing, septic systems, demolition, and site work serving Northern Michigan. Licensed, insured, and locally trusted.',
+  title: 'Excavation Contractor Northern Michigan | Northwoods Landwork',
+  description: 'Excavation, land clearing, drainage, trenching, and site work in Northern Michigan. Serving Charlevoix, Petoskey, Traverse City and surrounding areas.',
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
