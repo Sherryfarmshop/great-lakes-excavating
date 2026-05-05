@@ -1,18 +1,23 @@
 import Image from 'next/image';
 
+// Row 1 — strongest impact: action + transformation
+// Row 2 — work in progress: job site variety
+// Row 3 — supporting: closeups + finishing work
 const images = [
-  { src: '/images/gallery-before-after-driveway.jpg', alt: 'Driveway project' },
+  { src: '/images/driveway-new.jpg', alt: 'Skid steer grading driveway' },
+  { src: '/images/gallery-before-after-driveway.jpg', alt: 'Driveway transformation' },
   { src: '/images/gallery-before-after-pond.jpg', alt: 'Pond construction' },
-  { src: '/images/gallery-before-after-drainage.jpg', alt: 'Drainage work' },
-  { src: '/images/gallery-before-after-culvert.jpg', alt: 'Culvert installation' },
-  { src: '/images/gallery-before-after-clearing.jpg', alt: 'Land clearing' },
-  { src: '/images/gallery-2.jpg', alt: 'Excavation project' },
+  { src: '/images/gallery-7.jpg', alt: 'Shoreline and waterfront work' },
+
+  { src: '/images/gallery-before-after-clearing.jpg', alt: 'Land clearing project' },
+  { src: '/images/gallery-before-after-drainage.jpg', alt: 'Drainage and grading' },
   { src: '/images/gallery-3.jpg', alt: 'Site work in progress' },
-  { src: '/images/gallery-5.jpg', alt: 'Drainage and ditch work' },
-  { src: '/images/gallery-6.jpg', alt: 'Equipment at work' },
-  { src: '/images/gallery-7.jpg', alt: 'Shoreline work' },
-  { src: '/images/driveway-new.jpg', alt: 'Driveway grading' },
+  { src: '/images/gallery-2.jpg', alt: 'Excavation project' },
+
+  { src: '/images/gallery-before-after-culvert.jpg', alt: 'Culvert installation' },
+  { src: '/images/gallery-5.jpg', alt: 'Ditch and drainage work' },
   { src: '/images/land-clearing.jpg', alt: 'Land clearing' },
+  { src: '/images/gallery-6.jpg', alt: 'Equipment on site' },
 ];
 
 export default function Gallery() {
@@ -29,12 +34,15 @@ export default function Gallery() {
 
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
           {images.map((img, i) => (
-            <div key={i} className="relative overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-shadow aspect-square">
+            <div
+              key={i}
+              className="relative overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-all duration-300 aspect-square"
+            >
               <Image
                 src={img.src}
                 alt={img.alt}
                 fill
-                className="object-cover hover:scale-105 transition-transform duration-500"
+                className="object-cover transition-transform duration-500 hover:scale-110"
               />
             </div>
           ))}
