@@ -38,9 +38,14 @@ export default function Contact() {
                 (231) 330-4745
               </a>
               <p className="text-dark-text/60 text-sm mb-3">Most calls returned same day.</p>
-              <a href="tel:2313304745" className="inline-block bg-[#D9651A] hover:bg-[#c05716] text-[#F2E8D8] font-bold px-6 py-3 rounded text-base tracking-wide transition-colors shadow-md">
-                Tap to Call
-              </a>
+              <div className="flex gap-3 flex-wrap">
+                <a href="tel:2313304745" className="inline-block bg-[#D9651A] hover:bg-[#c05716] text-[#F2E8D8] font-bold px-6 py-3 rounded text-base tracking-wide transition-colors shadow-md">
+                  Call Now
+                </a>
+                <a href="sms:2313304745" className="inline-block bg-[#1F2A22] hover:bg-[#2a3d2e] text-[#F2E8D8] font-bold px-6 py-3 rounded text-base tracking-wide transition-colors shadow-md">
+                  Text Now
+                </a>
+              </div>
             </div>
 
             {/* Service area + hours — grouped */}
