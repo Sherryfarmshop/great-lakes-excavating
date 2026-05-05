@@ -29,10 +29,10 @@ export default function Hero() {
 
         {/* Buttons */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
-          <a href="#contact" className="bg-accent-orange hover:bg-accent-orange/90 text-white px-8 py-4 rounded text-lg font-semibold tracking-wide transition-colors shadow-lg">
+          <a href="#contact" className="bg-[#D9651A] hover:bg-[#c05716] text-[#F2E8D8] px-8 py-4 rounded text-lg font-bold tracking-wide transition-colors shadow-lg">
             Get a Quote in 24 Hours
           </a>
-          <a href="tel:2313304745" className="border-2 border-cream text-cream hover:bg-cream hover:text-dark-brown px-8 py-4 rounded text-lg font-semibold tracking-wide transition-colors">
+          <a href="tel:2313304745" className="border-2 border-[#F2E8D8] text-[#F2E8D8] hover:bg-[#F2E8D8] hover:text-[#1F2A22] px-8 py-4 rounded text-lg font-bold tracking-wide transition-colors">
             Call or Text Now
           </a>
         </div>

@@ -53,7 +53,7 @@ const secondaryServices = [
 
 export default function Services() {
   return (
-    <section id="services" className="py-20 bg-cream">
+    <section id="services" className="py-20 bg-[#EFE8DC]">
       <div className="max-w-7xl mx-auto px-6">
         <h2 className="font-heading text-4xl md:text-5xl text-forest text-center mb-4 font-black uppercase tracking-wider">The Work Starts Here</h2>
         <p className="text-center text-dark-text/80 text-xl font-bold mb-16 max-w-2xl mx-auto italic">
@@ -86,7 +86,7 @@ export default function Services() {
               <p className="text-cream/90 text-lg leading-relaxed mb-6 text-justify">
                 We handle safe, efficient demolition of homes, barns, garages, and damaged structures across Northern Michigan. From teardown to debris removal and site cleanup, we prepare your property for rebuilding.
               </p>
-              <a href="#contact" className="inline-block bg-accent-orange hover:bg-accent-orange/90 text-white px-8 py-3 rounded text-lg font-semibold transition-colors w-fit">
+              <a href="#contact" className="inline-block bg-[#D9651A] hover:bg-[#c05716] text-[#F2E8D8] px-8 py-3 rounded text-lg font-bold transition-colors w-fit shadow-md">
                 Get a Demolition Quote →
               </a>
             </div>
@@ -94,16 +94,16 @@ export default function Services() {
         </div>
 
         {/* Secondary Services */}
-        <h3 className="font-heading text-2xl text-forest text-center mb-10">Additional Services</h3>
+        <h3 className="font-heading text-2xl text-center mb-10 font-bold uppercase tracking-wider text-[#1F2A22]">More Ways We Help You Get the Job Done</h3>
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
           {secondaryServices.map((svc) => (
-            <div key={svc.title} className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow">
+            <div key={svc.title} className="bg-[#EFE8DC] rounded-lg overflow-hidden shadow-md border border-[#C9B896]/60 hover:shadow-lg transition-shadow">
               <div className="relative aspect-[4/3]">
                 <Image src={svc.img} alt={svc.title} fill className="object-cover" />
               </div>
               <div className="p-5">
-                <h4 className="font-heading text-lg text-forest mb-2">{svc.title}</h4>
-                <p className="text-dark-text/75 text-sm leading-relaxed text-justify">{svc.desc}</p>
+                <h4 className="font-heading text-lg font-bold text-[#1F2A22] mb-2">{svc.title}</h4>
+                <p className="text-[#1F2A22]/75 text-sm leading-relaxed text-justify">{svc.desc}</p>
               </div>
             </div>
           ))}

@@ -22,7 +22,7 @@ export default function Navbar() {
   }, []);
 
   return (
-    <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled ? 'bg-forest/95 backdrop-blur shadow-lg' : 'bg-forest/80 backdrop-blur-sm'}`}>
+    <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled ? 'bg-[#1F2A22] shadow-xl' : 'bg-[#1F2A22]/90 backdrop-blur-sm'}`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           <a href="#home" className="flex-shrink-0 flex items-center gap-4">
@@ -42,7 +42,7 @@ export default function Navbar() {
                 {link.label}
               </a>
             ))}
-            <a href="tel:2313304745" className="bg-accent-orange hover:bg-accent-orange/90 text-white px-5 py-2.5 rounded font-semibold text-sm tracking-wide transition-colors">
+            <a href="tel:2313304745" className="bg-[#D9651A] hover:bg-[#c05716] text-[#F2E8D8] px-6 py-3 rounded font-bold text-base tracking-wide transition-colors shadow-md">
               Call Now
             </a>
           </div>
