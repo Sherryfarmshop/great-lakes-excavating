@@ -13,7 +13,7 @@ export default function About() {
               <h2 className="font-heading text-4xl text-cream mb-6 text-center">Built on Hard Work<br />and Handshakes</h2>
               <div className="space-y-4 text-cream/85 text-lg leading-relaxed font-semibold text-justify">
               <p>
-                Great Lakes Excavating &amp; Brushwork is a Northern Michigan company built the old-fashioned way — hard work, fair prices, and doing what we say we&apos;ll do.
+                Northwoods Landwork is a Northern Michigan company built the old-fashioned way — hard work, fair prices, and doing what we say we&apos;ll do.
               </p>
               <p>
                 We know this land because we live on it. From clay and sand to frost lines and water tables, we understand what it takes to get the job done right.
