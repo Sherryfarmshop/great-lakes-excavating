@@ -23,36 +23,44 @@ export default function Contact() {
 
         <div className="grid md:grid-cols-2 gap-12 max-w-5xl mx-auto">
           {/* Contact Info */}
-          <div className="space-y-8">
+          <div className="space-y-6">
+
+            {/* Phone — main focus */}
             <div>
-              <h3 className="font-heading text-2xl text-forest mb-2">Call or Text</h3>
-              <a href="tel:2313304745" className="text-3xl font-bold text-accent-orange hover:text-accent-orange/80 transition-colors">
+              <h3 className="font-heading text-xl text-forest mb-2 uppercase tracking-wide">Call or Text</h3>
+              <a href="tel:2313304745" className="text-5xl font-black text-[#D9651A] hover:text-[#c05716] transition-colors block leading-none mb-2">
                 (231) 330-4745
+              </a>
+              <p className="text-dark-text/60 text-sm mb-3">Most calls returned same day.</p>
+              <a href="tel:2313304745" className="inline-block bg-[#D9651A] hover:bg-[#c05716] text-[#F2E8D8] font-bold px-6 py-3 rounded text-base tracking-wide transition-colors shadow-md">
+                Tap to Call
               </a>
             </div>
 
-            <div>
-              <h3 className="font-heading text-2xl text-forest mb-1">Where We Work</h3>
-              <p className="text-dark-text font-bold text-lg mb-1">Northern Michigan</p>
-              <p className="text-dark-text/80 leading-relaxed">
-                Charlevoix &bull; Petoskey &bull; Boyne City &bull; Traverse City &bull; Gaylord &bull; Cheboygan
-              </p>
-              <p className="text-dark-text/60 text-sm mt-1">and surrounding areas</p>
+            {/* Service area + hours — grouped */}
+            <div className="border-t border-[#1F2A22]/10 pt-5 space-y-4">
+              <div>
+                <h3 className="font-heading text-base text-forest uppercase tracking-wide font-bold mb-1">Where We Work</h3>
+                <p className="text-dark-text/80 text-sm leading-relaxed">
+                  Charlevoix &bull; Petoskey &bull; Boyne City &bull; Traverse City &bull; Gaylord &bull; Cheboygan &bull; and surrounding areas
+                </p>
+              </div>
+
+              <div>
+                <h3 className="font-heading text-base text-forest uppercase tracking-wide font-bold mb-1">Hours</h3>
+                <p className="text-dark-text/80 text-sm">Monday – Friday: 7:00 AM – 6:00 PM</p>
+                <p className="text-dark-text/80 text-sm">Saturday: By appointment</p>
+              </div>
             </div>
 
-            <div>
-              <h3 className="font-heading text-2xl text-forest mb-1">Hours</h3>
-              <p className="text-dark-text/80">Monday – Friday: 7:00 AM – 6:00 PM</p>
-              <p className="text-dark-text/80">Saturday: By appointment</p>
-              <p className="text-dark-text/60 text-sm mt-2">Emergency demolition and flood work available 7 days a week.</p>
-            </div>
-
-            <div className="bg-dark-brown rounded-lg p-6 text-cream">
-              <p className="font-bold text-accent-orange text-lg mb-2">Northern Michigan Flood &amp; Storm Damage</p>
-              <p className="text-cream/85 text-sm leading-relaxed">
-                If you were hit, call us. We&apos;re prioritizing cleanup and demolition for affected families and properties.
+            {/* Flood box — secondary, smaller */}
+            <div className="bg-[#1F2A22] rounded-lg p-4 text-cream">
+              <p className="font-bold text-[#D9651A] text-sm mb-1">Flood &amp; Storm Damage?</p>
+              <p className="text-cream/75 text-xs leading-relaxed">
+                Call us. We prioritize cleanup and demolition for affected families across Northern Michigan. Available 7 days a week.
               </p>
             </div>
+
           </div>
 
           {/* Quote Form */}
@@ -65,7 +73,7 @@ export default function Contact() {
                 <p className="text-dark-text/70">We&apos;ll get back to you within 24 hours.</p>
               </div>
             ) : (
-              <form onSubmit={handleSubmit} className="space-y-5">
+              <form onSubmit={handleSubmit} className="space-y-6">
                 <div>
                   <label htmlFor="name" className="block text-sm font-semibold text-dark-text mb-1">Name</label>
                   <input type="text" id="name" name="name" required className="w-full border border-tan rounded px-4 py-3 focus:outline-none focus:ring-2 focus:ring-forest text-dark-text" />
@@ -99,7 +107,7 @@ export default function Contact() {
                   <label htmlFor="details" className="block text-sm font-semibold text-dark-text mb-1">Project Details</label>
                   <textarea id="details" name="details" rows={4} className="w-full border border-tan rounded px-4 py-3 focus:outline-none focus:ring-2 focus:ring-forest text-dark-text resize-none" placeholder="Tell us about your project — location, timeline, anything helpful..." />
                 </div>
-                <button type="submit" className="w-full bg-accent-orange hover:bg-accent-orange/90 text-white py-4 rounded text-lg font-semibold tracking-wide transition-colors shadow-md">
+                <button type="submit" className="w-full bg-[#D9651A] hover:bg-[#c05716] text-[#F2E8D8] py-4 rounded text-lg font-bold tracking-wide transition-colors shadow-md">
                   Send Estimate Request
                 </button>
               </form>
