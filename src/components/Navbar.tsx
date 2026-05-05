@@ -24,14 +24,14 @@ export default function Navbar() {
   return (
     <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled ? 'bg-[#1F2A22] shadow-xl' : 'bg-[#1F2A22]/90 backdrop-blur-sm'}`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-20">
+        <div className="flex items-center justify-between h-28">
           <a href="#home" className="flex-shrink-0 flex items-center gap-4">
-            <Image src="/images/logo.jpg" alt="Northwoods Landwork" width={80} height={80} className="rounded" />
-            <span className="hidden sm:flex flex-col leading-none">
-              <span className="font-heading font-black uppercase tracking-widest text-xl md:text-2xl text-accent-orange drop-shadow">
+            <Image src="/images/logo.jpg" alt="Northwoods Landwork" width={120} height={120} className="rounded" />
+            <span className="hidden sm:flex flex-col leading-[1.1]">
+              <span className="font-heading font-black uppercase tracking-tight text-2xl md:text-3xl text-[#D9651A] drop-shadow">
                 Northwoods
               </span>
-              <span className="font-heading font-black uppercase tracking-widest text-xl md:text-2xl text-cream drop-shadow">
+              <span className="font-heading font-bold uppercase tracking-tight text-lg md:text-xl text-[#F2E8D8] drop-shadow">
                 Landwork
               </span>
             </span>

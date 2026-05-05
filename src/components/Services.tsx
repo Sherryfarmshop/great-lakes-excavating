@@ -31,22 +31,22 @@ const primaryServices = [
 const secondaryServices = [
   {
     title: 'Pond Digging, Pond Construction & Excavation',
-    desc: 'We provide pond digging and excavation for homes, farms, and recreational properties. From new pond construction to enlarging or reshaping existing ponds, we ensure proper depth, grading, and drainage for long-lasting results.',
+    desc: 'Professional pond excavation and construction for homes, farms, and rural properties across Northern Michigan. Built for proper depth, grading, and long-term drainage.',
     img: '/images/pond.jpg',
   },
   {
     title: 'Drainage & Ditch Work',
-    desc: 'Dealing with standing water or poor drainage? We handle ditch digging, drain tile installation, yard drainage, and water control across Northern Michigan. From wet yards to large properties, we redirect water properly to keep your land dry and usable.',
+    desc: 'Solve standing water and drainage issues with expert ditching, drain tile installation, and grading. We redirect water properly to keep your property dry and usable.',
     img: '/images/gallery-5.jpg',
   },
   {
     title: 'Culverts & Water Control',
-    desc: 'We install and replace culverts for proper water flow across driveways and properties in Northern Michigan. Correct sizing and placement prevent washouts, erosion, and drainage issues.',
+    desc: 'Installation and replacement of culverts for proper water flow across driveways and properties. Correct sizing and placement prevent washouts and erosion.',
     img: '/images/culvert.jpg',
   },
   {
     title: 'Trenching',
-    desc: 'We handle trenching for water lines, electric, and drainage systems. Clean cuts, proper backfilling, and dependable work for residential and commercial projects—done on schedule.',
+    desc: 'Precision trenching for water lines, electrical, and drainage systems. Clean cuts, proper backfilling, and dependable work for residential and commercial projects.',
     img: '/images/gallery-1.jpg',
   },
 ];
@@ -94,16 +94,16 @@ export default function Services() {
         </div>
 
         {/* Secondary Services */}
-        <h3 className="font-heading text-2xl text-center mb-10 font-bold uppercase tracking-wider text-[#1F2A22]">More Ways We Help You Get the Job Done</h3>
+        <h3 className="font-heading text-xl text-center mt-16 mb-10 font-black uppercase tracking-widest text-[#1F2A22]">More Ways We Help You Get the Job Done</h3>
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
           {secondaryServices.map((svc) => (
-            <div key={svc.title} className="bg-[#EFE8DC] rounded-lg overflow-hidden shadow-md border border-[#C9B896]/60 hover:shadow-lg transition-shadow">
+            <div key={svc.title} className="bg-[#F2E8D8] rounded-lg overflow-hidden shadow-[0_4px_16px_rgba(0,0,0,0.12)] border border-[#C9B896] hover:shadow-lg transition-shadow">
               <div className="relative aspect-[4/3]">
                 <Image src={svc.img} alt={svc.title} fill className="object-cover" />
               </div>
               <div className="p-5">
-                <h4 className="font-heading text-lg font-bold text-[#1F2A22] mb-2">{svc.title}</h4>
-                <p className="text-[#1F2A22]/75 text-sm leading-relaxed text-justify">{svc.desc}</p>
+                <h4 className="font-heading text-base font-bold text-[#1F2A22] mb-2">{svc.title}</h4>
+                <p className="text-[#1F2A22]/80 text-sm leading-relaxed text-justify">{svc.desc}</p>
               </div>
             </div>
           ))}
