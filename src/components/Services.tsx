@@ -3,27 +3,27 @@ import Image from 'next/image';
 const primaryServices = [
   {
     title: 'Septic System Installation & Replacement',
-    desc: 'We install and replace septic systems across Northern Michigan, including perc test coordination, permits, excavation, and drain fields. Built for our soil—done right the first time.',
+    desc: 'We install and replace septic systems across Northern Michigan, including Charlevoix, Petoskey, and Cheboygan. From perc test coordination and permits to excavation and drain field installation, we handle the entire process so you don\'t have to figure it out. Built for Northern Michigan soil and conditions—done right the first time.',
     img: '/images/septic.jpg',
   },
   {
     title: 'Site Preparation & Foundation Excavation',
-    desc: 'We provide complete site preparation and foundation excavation for homes, pole barns, and garages. We handle land clearing, excavation, and precise grading—ensuring your project starts on solid ground.',
+    desc: 'We provide complete site preparation and foundation excavation for homes, pole barns, garages, and outbuildings. From land clearing to precise grading, we make sure your project starts on solid ground and is ready to build.',
     img: '/images/site-prep.jpg',
   },
   {
     title: 'Shoreline Protection & Breakwall Installation',
-    desc: 'We build shoreline protection that lasts — including breakwalls, riprap, and erosion control for lakefront properties across Northern Michigan. Whether you\'re dealing with wave damage, erosion, or a failing shoreline, we stabilize and protect your waterfront the right way.',
+    desc: 'Protect your waterfront property with durable shoreline solutions, including breakwalls, riprap, and erosion control. We work with Northern Michigan lakefront conditions to stabilize and protect your shoreline from long-term damage.',
     img: '/images/gallery-7.jpg',
   },
   {
     title: 'Driveway Installation & Grading',
-    desc: 'We install gravel driveways, regrade existing ones, and repair washouts. Built for proper drainage and durability—so your driveway holds up through Michigan winters.',
+    desc: 'We install new gravel driveways, regrade existing ones, and repair washouts. Proper grading and drainage ensure your driveway holds up through Northern Michigan weather and seasonal changes.',
     img: '/images/driveway-new.jpg',
   },
   {
     title: 'Land Clearing',
-    desc: 'Professional land clearing services for trees, brush, stumps, and overgrown lots. We handle lot clearing, brush removal, stump removal, and site prep for construction—whether you\'re preparing to build or just reclaiming your property, we\'ll open it up.',
+    desc: 'We clear trees, brush, stumps, and overgrown lots to prepare your land for building or use. Whether you\'re starting a new project or reclaiming your property, we open it up and get it ready for the next step.',
     img: '/images/land-clearing.jpg',
   },
 ];
@@ -57,7 +57,7 @@ export default function Services() {
       <div className="max-w-7xl mx-auto px-6">
         <h2 className="font-heading text-4xl md:text-5xl text-forest text-center mb-4 font-black uppercase tracking-wider">The Work Starts Here</h2>
         <p className="text-center text-dark-text/80 text-xl font-bold mb-16 max-w-2xl mx-auto italic">
-          &ldquo;We handle the dirt work—done right the first time.&rdquo;
+          Real excavation work. Done right the first time.
         </p>
 
         {/* Primary Services */}
@@ -84,10 +84,10 @@ export default function Services() {
             <div className="p-10 flex flex-col justify-center">
               <h3 className="font-heading text-3xl text-accent-orange mb-4">Demolition Services</h3>
               <p className="text-cream/90 text-lg leading-relaxed mb-6 text-justify">
-                Professional demolition services across Northern Michigan. We safely tear down houses, barns, garages, and damaged structures, including storm and flood cleanup. From full structural demolition to site clearing and debris removal, we handle the job start to finish so you can rebuild on solid ground.
+                We handle safe, efficient demolition of homes, barns, garages, and damaged structures across Northern Michigan. From teardown to debris removal and site cleanup, we prepare your property for rebuilding.
               </p>
               <a href="#contact" className="inline-block bg-accent-orange hover:bg-accent-orange/90 text-white px-8 py-3 rounded text-lg font-semibold transition-colors w-fit">
-                Get Flood Damage Help →
+                Get a Demolition Quote →
               </a>
             </div>
           </div>
