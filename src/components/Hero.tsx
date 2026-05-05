@@ -5,22 +5,17 @@ export default function Hero() {
     <section id="home" className="relative h-screen min-h-[600px] flex items-center justify-center">
       <Image src="/images/gallery-1.jpg" alt="Excavation work in Northern Michigan" fill className="object-cover" priority />
       <div className="absolute inset-0 bg-dark-brown/65" />
-      <div className="relative z-10 text-center px-6 max-w-5xl">
+      <div className="relative z-10 text-center px-6 max-w-5xl pt-28">
 
-        {/* H1 — primary SEO target */}
-        <h1 className="font-heading text-4xl sm:text-5xl md:text-6xl text-cream leading-tight mb-4 drop-shadow-lg">
+        {/* H1 */}
+        <h1 className="font-heading text-3xl sm:text-4xl md:text-5xl text-cream leading-tight mb-4 drop-shadow-lg">
           Excavation &amp; Landwork Services<br className="hidden sm:block" /> in Northern Michigan
         </h1>
 
         {/* H2 */}
-        <h2 className="text-lg sm:text-xl md:text-2xl text-cream/85 font-body font-normal mb-4 drop-shadow max-w-3xl mx-auto leading-snug">
+        <h2 className="text-lg sm:text-xl text-cream/85 font-body font-normal mb-4 drop-shadow max-w-3xl mx-auto leading-snug">
           From Raw Land to Ready-to-Build — Site Prep, Septic Installation &amp; Land Clearing in Northern Michigan
         </h2>
-
-        {/* SEO intro paragraph */}
-        <p className="text-cream/70 text-sm max-w-2xl mx-auto mb-4 drop-shadow leading-relaxed">
-          Northwoods Landwork provides excavation, land clearing, drainage, trenching, and site work services across Northern Michigan, including Charlevoix, Petoskey, Boyne City, Traverse City, Gaylord, and surrounding areas.
-        </p>
 
         {/* Service line */}
         <p className="text-sm sm:text-base text-tan tracking-wide mb-3 drop-shadow">
