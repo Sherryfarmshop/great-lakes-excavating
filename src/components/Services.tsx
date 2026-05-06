@@ -30,6 +30,11 @@ const primaryServices = [
 
 const secondaryServices = [
   {
+    title: 'Brush Hogging in Northern Michigan',
+    desc: 'We mow down overgrown fields, roadsides, fence lines, and rural lots across Charlevoix, Petoskey, Boyne City, and surrounding areas. Brush hogging keeps your property clean, accessible, and looking sharp — whether it\'s a seasonal cleanup or regular maintenance.',
+    img: '/images/brush-hogging.jpg',
+  },
+  {
     title: 'Drainage & Ditch Work in Northern Michigan',
     desc: 'Solve standing water and drainage issues with expert ditching, drain tile installation, and grading. Serving properties across Charlevoix, Petoskey, Boyne City, and Northern Michigan.',
     img: '/images/gallery-5.jpg',
