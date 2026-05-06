@@ -30,11 +30,6 @@ const primaryServices = [
 
 const secondaryServices = [
   {
-    title: 'Pond Digging & Pond Construction in Northern Michigan',
-    desc: 'Professional pond excavation and construction for homes, farms, and rural properties in Charlevoix, Petoskey, Gaylord, and surrounding Northern Michigan areas. Built for proper depth, grading, and long-term drainage.',
-    img: '/images/pond.jpg',
-  },
-  {
     title: 'Drainage & Ditch Work in Northern Michigan',
     desc: 'Solve standing water and drainage issues with expert ditching, drain tile installation, and grading. Serving properties across Charlevoix, Petoskey, Boyne City, and Northern Michigan.',
     img: '/images/gallery-5.jpg',
