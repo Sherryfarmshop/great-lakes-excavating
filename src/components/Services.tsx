@@ -82,7 +82,7 @@ export default function Services() {
               <Image src="/images/demolition.jpg" alt="Demolition services" fill className="object-cover" />
             </div>
             <div className="p-10 flex flex-col justify-center">
-              <h3 className="font-heading text-3xl text-accent-orange mb-4">Demolition Services</h3>
+              <h3 className="font-heading text-3xl text-accent-orange mb-4">Demolition Services & Debris Removal</h3>
               <p className="text-cream/90 text-lg leading-relaxed mb-6 text-justify">
                 We handle safe, efficient demolition of homes, barns, garages, and damaged structures across Northern Michigan. From teardown to debris removal and site cleanup, we prepare your property for rebuilding.
               </p>
