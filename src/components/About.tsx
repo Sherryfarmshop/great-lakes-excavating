@@ -21,7 +21,7 @@ export default function About() {
 
               <div className="space-y-6 text-[#D4C9B5] text-base leading-[1.9]" style={{ fontFamily: "Georgia, 'Times New Roman', serif" }}>
                 <p>
-                  Northwoods Landwork is a Northern Michigan company built the old-fashioned way — hard work, fair prices, and doing what we say we&apos;ll do.
+                  Northwoods Land Work is a Northern Michigan company built the old-fashioned way — hard work, fair prices, and doing what we say we&apos;ll do.
                 </p>
                 <p>
                   We know this land because we live on it. From clay and sand to frost lines and water tables, we understand what it takes to get the job done right.
@@ -43,7 +43,7 @@ export default function About() {
                   — Scott Cleland
                 </p>
                 <p className="text-[#D4C9B5] text-base tracking-wide mt-1" style={{ fontFamily: "Georgia, serif" }}>
-                  Owner-Operator, Northwoods Landwork
+                  Owner-Operator, Northwoods Land Work
                 </p>
               </div>
 

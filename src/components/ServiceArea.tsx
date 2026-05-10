@@ -6,7 +6,7 @@ export default function ServiceArea() {
           Excavation, Land Clearing &amp; Site Work Across Northern Michigan
         </h2>
         <p className="text-[#1F2A22]/75 text-base leading-relaxed">
-          Northwoods Landwork provides excavation, land clearing, drainage, trenching, and site work services across Northern Michigan, including Charlevoix, Petoskey, Boyne City, Traverse City, Gaylord, Cheboygan, and surrounding areas.
+          Northwoods Land Work provides excavation, land clearing, drainage, trenching, and site work services across Northern Michigan, including Charlevoix, Petoskey, Boyne City, Traverse City, Gaylord, Cheboygan, and surrounding areas.
         </p>
       </div>
     </section>

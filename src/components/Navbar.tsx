@@ -26,13 +26,13 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-28">
           <a href="#home" className="flex-shrink-0 flex items-center gap-4">
-            <Image src="/images/logo.jpg" alt="Northwoods Landwork" width={120} height={120} className="rounded" />
+            <Image src="/images/logo.jpg" alt="Northwoods Land Work" width={120} height={120} className="rounded" />
             <span className="hidden sm:flex flex-col leading-[1.1]">
               <span className="font-heading font-black uppercase tracking-tight text-2xl md:text-3xl text-[#D9651A] drop-shadow">
                 Northwoods
               </span>
               <span className="font-heading font-bold uppercase tracking-tight text-lg md:text-xl text-[#F2E8D8] drop-shadow">
-                Landwork
+                Land Work
               </span>
             </span>
           </a>

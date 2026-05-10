@@ -9,7 +9,7 @@ export default function Hero() {
 
         {/* H1 */}
         <h1 className="font-heading text-3xl sm:text-4xl md:text-5xl text-cream leading-tight mb-4 drop-shadow-lg">
-          Excavation &amp; Landwork Services<br className="hidden sm:block" /> in Northern Michigan
+          Excavation &amp; Land Work Services<br className="hidden sm:block" /> in Northern Michigan
         </h1>
 
         {/* H2 */}

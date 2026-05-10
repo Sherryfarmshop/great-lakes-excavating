@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'Excavation Contractor Northern Michigan | Northwoods Landwork',
+  title: 'Excavation Contractor Northern Michigan | Northwoods Land Work',
   description: 'Excavation, land clearing, drainage, trenching, and site work in Northern Michigan. Serving Charlevoix, Petoskey, Traverse City and surrounding areas.',
 };
 
