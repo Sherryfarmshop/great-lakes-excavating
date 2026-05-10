@@ -1,6 +1,7 @@
 import Navbar from '@/components/Navbar';
 import Hero from '@/components/Hero';
 import ServiceArea from '@/components/ServiceArea';
+import HydroSeeding from '@/components/HydroSeeding';
 import Services from '@/components/Services';
 import About from '@/components/About';
 import Gallery from '@/components/Gallery';
@@ -13,6 +14,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <ServiceArea />
+      <HydroSeeding />
       <Services />
       <About />
       <Gallery />
