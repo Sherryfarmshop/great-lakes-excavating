@@ -117,7 +117,6 @@ export default function HydroSeeding() {
         </div>
 
       </div>
-      </div>
     </section>
   );
 }
