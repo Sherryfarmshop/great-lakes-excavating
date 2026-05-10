@@ -5,7 +5,7 @@ export default function HydroSeeding() {
     <section id="hydroseeding" className="bg-[#1F2A22]">
       {/* Hero Image */}
       <div className="relative w-full aspect-[21/9] md:aspect-[3/1]">
-        <Image src="/images/hydroseeding.jpg" alt="Hydro seeding a new lawn in Northern Michigan" fill className="object-cover" />
+        <Image src="/images/hydroseed-hero.jpg" alt="Hydro seeding a new lawn in Northern Michigan" fill className="object-cover" />
         <div className="absolute inset-0 bg-[#1F2A22]/30" />
       </div>
 
