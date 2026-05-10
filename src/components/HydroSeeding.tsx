@@ -1,7 +1,15 @@
+import Image from 'next/image';
+
 export default function HydroSeeding() {
   return (
-    <section id="hydroseeding" className="py-20 bg-[#1F2A22]">
-      <div className="max-w-4xl mx-auto px-6">
+    <section id="hydroseeding" className="bg-[#1F2A22]">
+      {/* Hero Image */}
+      <div className="relative w-full aspect-[21/9] md:aspect-[3/1]">
+        <Image src="/images/hydroseeding.jpg" alt="Hydro seeding a new lawn in Northern Michigan" fill className="object-cover" />
+        <div className="absolute inset-0 bg-[#1F2A22]/30" />
+      </div>
+
+      <div className="max-w-4xl mx-auto px-6 py-20">
 
         {/* Header */}
         <h2 className="font-heading text-3xl sm:text-4xl md:text-5xl text-[#D9651A] text-center font-black uppercase tracking-wider mb-4">
@@ -108,6 +116,7 @@ export default function HydroSeeding() {
           </a>
         </div>
 
+      </div>
       </div>
     </section>
   );
