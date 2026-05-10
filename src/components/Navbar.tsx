@@ -66,42 +66,46 @@ export default function Navbar() {
 
           {/* Desktop Nav */}
           <div className="hidden md:flex items-center space-x-8">
-            {navLinks.map((link) => {
-              if (link.label === 'Hydro Seeding') {
-                return (
-                  <div key="services-dropdown" className="relative" ref={dropdownRef}>
-                    <button
-                      onClick={() => setServicesOpen(!servicesOpen)}
-                      className="text-cream hover:text-accent-orange transition-colors text-sm font-semibold tracking-wider uppercase flex items-center gap-1"
+            <a href="#home" className="text-cream hover:text-accent-orange transition-colors text-sm font-semibold tracking-wider uppercase">
+              Home
+            </a>
+            <a href="#hydroseeding" className="text-cream hover:text-accent-orange transition-colors text-sm font-semibold tracking-wider uppercase">
+              Hydro Seeding
+            </a>
+            <div className="relative" ref={dropdownRef}>
+              <button
+                onClick={() => setServicesOpen(!servicesOpen)}
+                className="text-cream hover:text-accent-orange transition-colors text-sm font-semibold tracking-wider uppercase flex items-center gap-1"
+              >
+                Services
+                <svg className={`w-3.5 h-3.5 transition-transform ${servicesOpen ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                </svg>
+              </button>
+              {servicesOpen && (
+                <div className="absolute top-full mt-3 left-1/2 -translate-x-1/2 bg-[#1F2A22] border border-[#F2E8D8]/15 rounded-lg shadow-2xl py-2 min-w-[220px]">
+                  {serviceDropdown.map((svc) => (
+                    <a
+                      key={svc.href}
+                      href={svc.href}
+                      onClick={() => setServicesOpen(false)}
+                      className="block px-5 py-2.5 text-[#D4C9B5] hover:text-[#D9651A] hover:bg-[#F2E8D8]/5 text-sm font-semibold transition-colors"
                     >
-                      Services
-                      <svg className={`w-3.5 h-3.5 transition-transform ${servicesOpen ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                      </svg>
-                    </button>
-                    {servicesOpen && (
-                      <div className="absolute top-full mt-3 left-1/2 -translate-x-1/2 bg-[#1F2A22] border border-[#F2E8D8]/15 rounded-lg shadow-2xl py-2 min-w-[220px]">
-                        {serviceDropdown.map((svc) => (
-                          <a
-                            key={svc.href}
-                            href={svc.href}
-                            onClick={() => setServicesOpen(false)}
-                            className="block px-5 py-2.5 text-[#D4C9B5] hover:text-[#D9651A] hover:bg-[#F2E8D8]/5 text-sm font-semibold transition-colors"
-                          >
-                            {svc.label}
-                          </a>
-                        ))}
-                      </div>
-                    )}
-                  </div>
-                );
-              }
-              return (
-                <a key={link.href} href={link.href} className="text-cream hover:text-accent-orange transition-colors text-sm font-semibold tracking-wider uppercase">
-                  {link.label}
-                </a>
-              );
-            })}
+                      {svc.label}
+                    </a>
+                  ))}
+                </div>
+              )}
+            </div>
+            <a href="#about" className="text-cream hover:text-accent-orange transition-colors text-sm font-semibold tracking-wider uppercase">
+              About
+            </a>
+            <a href="#gallery" className="text-cream hover:text-accent-orange transition-colors text-sm font-semibold tracking-wider uppercase">
+              Gallery
+            </a>
+            <a href="#contact" className="text-cream hover:text-accent-orange transition-colors text-sm font-semibold tracking-wider uppercase">
+              Contact
+            </a>
             <a href="tel:2313304745" className="bg-[#D9651A] hover:bg-[#c05716] text-[#F2E8D8] px-6 py-3 rounded font-bold text-base tracking-wide transition-colors shadow-md">
               Call Now
             </a>
