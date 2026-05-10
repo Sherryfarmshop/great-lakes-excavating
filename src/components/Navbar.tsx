@@ -1,25 +1,51 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import Image from 'next/image';
 
 const navLinks = [
   { label: 'Home', href: '#home' },
   { label: 'Hydro Seeding', href: '#hydroseeding' },
-  { label: 'Services', href: '#services' },
   { label: 'About', href: '#about' },
   { label: 'Gallery', href: '#gallery' },
   { label: 'Contact', href: '#contact' },
 ];
 
+const serviceDropdown = [
+  { label: 'Septic Systems', href: '#septic' },
+  { label: 'Site Prep & Excavation', href: '#site-prep' },
+  { label: 'Shoreline & Breakwalls', href: '#shoreline' },
+  { label: 'Driveways & Grading', href: '#driveways' },
+  { label: 'Land Clearing', href: '#land-clearing' },
+  { label: 'Demolition', href: '#demolition' },
+  { label: 'Hydro Seeding', href: '#hydroseeding' },
+  { label: 'Brush Hogging', href: '#brush-hogging' },
+  { label: 'Drainage & Ditch Work', href: '#drainage' },
+  { label: 'Culverts', href: '#culverts' },
+  { label: 'Trenching', href: '#trenching' },
+];
+
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const [servicesOpen, setServicesOpen] = useState(false);
+  const [mobileServicesOpen, setMobileServicesOpen] = useState(false);
+  const dropdownRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 20);
     window.addEventListener('scroll', onScroll);
     return () => window.removeEventListener('scroll', onScroll);
+  }, []);
+
+  useEffect(() => {
+    const handleClickOutside = (e: MouseEvent) => {
+      if (dropdownRef.current && !dropdownRef.current.contains(e.target as Node)) {
+        setServicesOpen(false);
+      }
+    };
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => document.removeEventListener('mousedown', handleClickOutside);
   }, []);
 
   return (
@@ -37,16 +63,51 @@ export default function Navbar() {
               </span>
             </span>
           </a>
+
+          {/* Desktop Nav */}
           <div className="hidden md:flex items-center space-x-8">
-            {navLinks.map((link) => (
-              <a key={link.href} href={link.href} className="text-cream hover:text-accent-orange transition-colors text-sm font-semibold tracking-wider uppercase">
-                {link.label}
-              </a>
-            ))}
+            {navLinks.map((link) => {
+              if (link.label === 'Hydro Seeding') {
+                return (
+                  <div key="services-dropdown" className="relative" ref={dropdownRef}>
+                    <button
+                      onClick={() => setServicesOpen(!servicesOpen)}
+                      className="text-cream hover:text-accent-orange transition-colors text-sm font-semibold tracking-wider uppercase flex items-center gap-1"
+                    >
+                      Services
+                      <svg className={`w-3.5 h-3.5 transition-transform ${servicesOpen ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                      </svg>
+                    </button>
+                    {servicesOpen && (
+                      <div className="absolute top-full mt-3 left-1/2 -translate-x-1/2 bg-[#1F2A22] border border-[#F2E8D8]/15 rounded-lg shadow-2xl py-2 min-w-[220px]">
+                        {serviceDropdown.map((svc) => (
+                          <a
+                            key={svc.href}
+                            href={svc.href}
+                            onClick={() => setServicesOpen(false)}
+                            className="block px-5 py-2.5 text-[#D4C9B5] hover:text-[#D9651A] hover:bg-[#F2E8D8]/5 text-sm font-semibold transition-colors"
+                          >
+                            {svc.label}
+                          </a>
+                        ))}
+                      </div>
+                    )}
+                  </div>
+                );
+              }
+              return (
+                <a key={link.href} href={link.href} className="text-cream hover:text-accent-orange transition-colors text-sm font-semibold tracking-wider uppercase">
+                  {link.label}
+                </a>
+              );
+            })}
             <a href="tel:2313304745" className="bg-[#D9651A] hover:bg-[#c05716] text-[#F2E8D8] px-6 py-3 rounded font-bold text-base tracking-wide transition-colors shadow-md">
               Call Now
             </a>
           </div>
+
+          {/* Mobile Hamburger */}
           <button className="md:hidden flex flex-col justify-center items-center w-10 h-10 space-y-1.5" onClick={() => setMenuOpen(!menuOpen)} aria-label="Toggle menu">
             <span className={`block w-6 h-0.5 bg-cream transition-all duration-300 ${menuOpen ? 'rotate-45 translate-y-2' : ''}`} />
             <span className={`block w-6 h-0.5 bg-cream transition-all duration-300 ${menuOpen ? 'opacity-0' : ''}`} />
@@ -54,13 +115,48 @@ export default function Navbar() {
           </button>
         </div>
       </div>
-      <div className={`md:hidden transition-all duration-300 overflow-hidden ${menuOpen ? 'max-h-96' : 'max-h-0'}`}>
+
+      {/* Mobile Menu */}
+      <div className={`md:hidden transition-all duration-300 overflow-hidden ${menuOpen ? 'max-h-[800px]' : 'max-h-0'}`}>
         <div className="bg-forest/95 backdrop-blur border-t border-cream/10 px-4 py-4 space-y-3">
-          {navLinks.map((link) => (
-            <a key={link.href} href={link.href} onClick={() => setMenuOpen(false)} className="block text-cream hover:text-accent-orange transition-colors text-sm font-semibold tracking-wider uppercase py-1">
-              {link.label}
-            </a>
-          ))}
+          <a href="#home" onClick={() => setMenuOpen(false)} className="block text-cream hover:text-accent-orange transition-colors text-sm font-semibold tracking-wider uppercase py-1">
+            Home
+          </a>
+
+          {/* Mobile Services Dropdown */}
+          <button
+            onClick={() => setMobileServicesOpen(!mobileServicesOpen)}
+            className="flex items-center justify-between w-full text-cream hover:text-accent-orange transition-colors text-sm font-semibold tracking-wider uppercase py-1"
+          >
+            Services
+            <svg className={`w-3.5 h-3.5 transition-transform ${mobileServicesOpen ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+            </svg>
+          </button>
+          <div className={`overflow-hidden transition-all duration-300 ${mobileServicesOpen ? 'max-h-[500px]' : 'max-h-0'}`}>
+            <div className="pl-4 space-y-2 pb-2">
+              {serviceDropdown.map((svc) => (
+                <a
+                  key={svc.href}
+                  href={svc.href}
+                  onClick={() => { setMenuOpen(false); setMobileServicesOpen(false); }}
+                  className="block text-[#D4C9B5] hover:text-[#D9651A] text-sm font-medium py-1 transition-colors"
+                >
+                  {svc.label}
+                </a>
+              ))}
+            </div>
+          </div>
+
+          <a href="#about" onClick={() => setMenuOpen(false)} className="block text-cream hover:text-accent-orange transition-colors text-sm font-semibold tracking-wider uppercase py-1">
+            About
+          </a>
+          <a href="#gallery" onClick={() => setMenuOpen(false)} className="block text-cream hover:text-accent-orange transition-colors text-sm font-semibold tracking-wider uppercase py-1">
+            Gallery
+          </a>
+          <a href="#contact" onClick={() => setMenuOpen(false)} className="block text-cream hover:text-accent-orange transition-colors text-sm font-semibold tracking-wider uppercase py-1">
+            Contact
+          </a>
           <a href="tel:2313304745" className="block bg-accent-orange text-white text-center px-5 py-2.5 rounded font-semibold text-sm mt-2">
             Call Now
           </a>
