@@ -9,22 +9,22 @@ export default function Hero() {
 
         {/* H1 */}
         <h1 className="font-heading text-3xl sm:text-4xl md:text-5xl text-cream leading-tight mb-4 drop-shadow-lg">
-          Excavation &amp; Land Work Services<br className="hidden sm:block" /> in Northern Michigan
+          Excavation, Hydro Seeding &amp; Land Work Services<br className="hidden sm:block" /> in Northern Michigan
         </h1>
 
         {/* H2 */}
         <h2 className="text-lg sm:text-xl text-cream/85 font-body font-normal mb-4 drop-shadow max-w-3xl mx-auto leading-snug">
-          From Raw Land to Ready-to-Build — Site Prep, Septic Installation &amp; Land Clearing in Northern Michigan
+          From raw land to finished property — site prep, septic work, land clearing, grading, drainage, driveways, and hydro seeding.
         </h2>
 
         {/* Service line */}
         <p className="text-sm sm:text-base text-tan tracking-wide mb-3 drop-shadow">
-          Septic Installation &bull; Site Preparation &bull; Land Clearing &bull; Driveways &bull; Drainage &bull; Demolition
+          Septic &bull; Site Prep &bull; Land Clearing &bull; Driveways &bull; Drainage &bull; Hydro Seeding &bull; Demolition
         </p>
 
         {/* Location */}
         <p className="text-sm text-tan/80 mb-8 drop-shadow">
-          Serving Charlevoix, Petoskey, Cheboygan &amp; surrounding Northern Michigan areas
+          Serving Charlevoix, Petoskey, Cheboygan, Gaylord, Traverse City, and surrounding Northern Michigan areas.
         </p>
 
         {/* Buttons */}
@@ -36,7 +36,7 @@ export default function Hero() {
 
         {/* Short description */}
         <p className="text-cream/70 text-sm sm:text-base max-w-2xl mx-auto leading-relaxed drop-shadow">
-          We provide professional excavation, septic installation, and site preparation services for residential and rural properties across Northern Michigan. From clearing land to final grading, we handle your project from start to finish.
+          Northwoods Land Work provides professional excavation, site preparation, hydro seeding, and land improvement services for residential, rural, and recreational properties. From clearing land and preparing driveways to final grading and lawn restoration, we help get your property ready from start to finish.
         </p>
 
       </div>
