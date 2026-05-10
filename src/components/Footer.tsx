@@ -5,7 +5,7 @@ export default function Footer() {
     <footer className="bg-dark-brown text-cream/80 py-12">
       <div className="max-w-5xl mx-auto px-6 text-center">
         <div className="mb-6">
-          <Image src="/images/logo.jpg" alt="Northwoods Land Work" width={140} height={140} className="rounded mx-auto" />
+          <Image src="/images/logo.webp" alt="Northwoods Land Work" width={140} height={140} className="rounded mx-auto" />
         </div>
         <p className="font-heading text-xl text-cream mb-4">Northwoods Land Work</p>
         <p className="text-cream/50 text-sm mb-2">Serving Northern Michigan with pride</p>
