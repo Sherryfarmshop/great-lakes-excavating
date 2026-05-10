@@ -2,33 +2,31 @@ import Image from 'next/image';
 
 export default function HydroSeeding() {
   return (
-    <section id="hydroseeding" className="bg-[#1F2A22]">
-      {/* Hero Image */}
-      <div className="relative w-full aspect-[21/9] md:aspect-[3/1]">
-        <Image src="/images/hydroseed-hero.jpg" alt="Hydro seeding a new lawn in Northern Michigan" fill className="object-cover" />
-        <div className="absolute inset-0 bg-[#1F2A22]/30" />
-      </div>
+    <section id="hydroseeding" className="bg-[#1F2A22] scroll-mt-32">
+      <div className="max-w-7xl mx-auto px-6 py-20">
 
-      <div className="max-w-4xl mx-auto px-6 py-20">
-
-        {/* Header */}
-        <h2 className="font-heading text-3xl sm:text-4xl md:text-5xl text-[#D9651A] text-center font-black uppercase tracking-wider mb-4">
-          Hydro Seeding in Northern Michigan
-        </h2>
-        <p className="text-center text-[#F2E8D8] text-lg sm:text-xl mb-6 max-w-2xl mx-auto leading-relaxed">
-          Fast, affordable lawn seeding for new lawns, bare ground, slopes, and freshly disturbed soil.
-        </p>
-        <p className="text-center text-[#D4C9B5] text-base mb-4 max-w-2xl mx-auto leading-relaxed">
-          Northwoods Land Work offers hydro seeding for homeowners, builders, farms, and rural properties throughout Northern Michigan.
-        </p>
-        <p className="text-center text-[#D4C9B5] text-base mb-10 max-w-2xl mx-auto leading-relaxed">
-          Hydro seeding is a cost-effective way to establish grass using a sprayed mixture of seed, mulch, fertilizer, and water. It works well for large areas, new construction sites, septic field restoration, driveway edges, slopes, ditches, and ground disturbed by excavation or grading.
-        </p>
-
-        <div className="text-center mb-16">
-          <a href="#contact" className="inline-block bg-[#D9651A] hover:bg-[#c05716] text-[#F2E8D8] px-8 py-4 rounded text-lg font-bold tracking-wide transition-colors shadow-lg">
-            Request a Hydro Seeding Quote
-          </a>
+        {/* Image + Header side by side */}
+        <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
+          <div className="relative aspect-[4/3] rounded-lg overflow-hidden shadow-xl">
+            <Image src="/images/hydroseed-hero.jpg" alt="Hydro seeding a new lawn in Northern Michigan" fill className="object-cover" />
+          </div>
+          <div>
+            <h2 className="font-heading text-3xl sm:text-4xl md:text-5xl text-[#D9651A] font-black uppercase tracking-wider mb-4">
+              Hydro Seeding in Northern Michigan
+            </h2>
+            <p className="text-[#F2E8D8] text-lg sm:text-xl mb-6 leading-relaxed">
+              Fast, affordable lawn seeding for new lawns, bare ground, slopes, and freshly disturbed soil.
+            </p>
+            <p className="text-[#D4C9B5] text-base mb-4 leading-relaxed">
+              Northwoods Land Work offers hydro seeding for homeowners, builders, farms, and rural properties throughout Northern Michigan.
+            </p>
+            <p className="text-[#D4C9B5] text-base mb-8 leading-relaxed">
+              Hydro seeding is a cost-effective way to establish grass using a sprayed mixture of seed, mulch, fertilizer, and water. It works well for large areas, new construction sites, septic field restoration, driveway edges, slopes, ditches, and ground disturbed by excavation or grading.
+            </p>
+            <a href="#contact" className="inline-block bg-[#D9651A] hover:bg-[#c05716] text-[#F2E8D8] px-8 py-4 rounded text-lg font-bold tracking-wide transition-colors shadow-lg">
+              Request a Hydro Seeding Quote
+            </a>
+          </div>
         </div>
 
         {/* Divider */}
