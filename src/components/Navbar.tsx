@@ -23,6 +23,7 @@ const serviceDropdown = [
   { label: 'Drainage & Ditch Work', href: '#drainage' },
   { label: 'Culverts', href: '#culverts' },
   { label: 'Trenching', href: '#trenching' },
+  { label: 'Retaining Walls', href: '#retaining-walls' },
 ];
 
 export default function Navbar() {
@@ -106,6 +107,9 @@ export default function Navbar() {
             <a href="#contact" className="text-cream hover:text-accent-orange transition-colors text-sm font-semibold tracking-wider uppercase">
               Contact
             </a>
+            <a href="/excavation-land-work-faqs" className="text-cream hover:text-accent-orange transition-colors text-sm font-semibold tracking-wider uppercase">
+              FAQs
+            </a>
             <a href="tel:2313304745" className="bg-[#D9651A] hover:bg-[#c05716] text-[#F2E8D8] px-6 py-3 rounded font-bold text-base tracking-wide transition-colors shadow-md">
               Call Now
             </a>
@@ -160,6 +164,9 @@ export default function Navbar() {
           </a>
           <a href="#contact" onClick={() => setMenuOpen(false)} className="block text-cream hover:text-accent-orange transition-colors text-sm font-semibold tracking-wider uppercase py-1">
             Contact
+          </a>
+          <a href="/excavation-land-work-faqs" onClick={() => setMenuOpen(false)} className="block text-cream hover:text-accent-orange transition-colors text-sm font-semibold tracking-wider uppercase py-1">
+            FAQs
           </a>
           <a href="tel:2313304745" className="block bg-accent-orange text-white text-center px-5 py-2.5 rounded font-semibold text-sm mt-2">
             Call Now

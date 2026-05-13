@@ -108,9 +108,12 @@ export default function HydroSeeding() {
         <p className="text-[#D4C9B5] text-base text-center mb-8 max-w-xl mx-auto">
           Send us your location, photos of the area, and the approximate square footage if you have it.
         </p>
-        <div className="text-center">
+        <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <a href="#contact" className="inline-block bg-[#D9651A] hover:bg-[#c05716] text-[#F2E8D8] px-8 py-4 rounded text-lg font-bold tracking-wide transition-colors shadow-lg">
             Request a Hydro Seeding Quote
+          </a>
+          <a href="/excavation-land-work-faqs" className="inline-block border-2 border-[#F2E8D8]/30 text-[#F2E8D8] hover:bg-[#F2E8D8]/10 px-8 py-4 rounded text-lg font-bold tracking-wide transition-colors">
+            Hydro Seeding FAQs
           </a>
         </div>
 
