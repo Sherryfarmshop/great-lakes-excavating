@@ -84,7 +84,7 @@ export default function Services() {
               </div>
               <div className="w-full md:w-5/12 max-w-xs">
                 <h3 className="font-heading text-2xl text-forest mb-3 font-bold">{svc.title}</h3>
-                <p className="text-dark-text/80 text-base leading-relaxed font-semibold text-justify">{svc.desc}</p>
+                <p className="text-dark-text/80 text-base leading-relaxed font-semibold text-left">{svc.desc}</p>
               </div>
             </div>
           ))}
@@ -98,7 +98,7 @@ export default function Services() {
             </div>
             <div className="p-10 flex flex-col justify-center">
               <h3 className="font-heading text-3xl text-accent-orange mb-4">Demolition Services &amp; Debris Removal</h3>
-              <p className="text-cream/90 text-lg leading-relaxed mb-6 text-justify">
+              <p className="text-cream/90 text-lg leading-relaxed mb-6 text-left">
                 We provide home demolition, old home demolition, barn removal, garage demolition, shed removal, debris cleanup, and site preparation across Northern Michigan. From teardown to debris removal and site cleanup, we prepare your property for rebuilding.
               </p>
               <a href="#contact" className="inline-block bg-[#D9651A] hover:bg-[#c05716] text-[#F2E8D8] px-8 py-3 rounded text-lg font-bold transition-colors w-fit shadow-md">
@@ -118,7 +118,7 @@ export default function Services() {
               </div>
               <div className="p-5">
                 <h4 className="font-heading text-base font-bold text-[#1F2A22] mb-2">{svc.title}</h4>
-                <p className="text-[#1F2A22]/80 text-sm leading-relaxed text-justify">{svc.desc}</p>
+                <p className="text-[#1F2A22]/80 text-sm leading-relaxed text-left">{svc.desc}</p>
               </div>
             </div>
           ))}
