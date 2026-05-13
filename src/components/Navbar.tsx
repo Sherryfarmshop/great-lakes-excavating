@@ -53,7 +53,7 @@ export default function Navbar() {
     <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled ? 'bg-[#1F2A22] shadow-xl' : 'bg-[#1F2A22]/90 backdrop-blur-sm'}`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-28">
-          <a href="#home" className="flex-shrink-0 flex items-center gap-4">
+          <a href="/#home" className="flex-shrink-0 flex items-center gap-4">
             <Image src="/images/logo.webp" alt="Northwoods Land Work" width={120} height={120} className="rounded" />
             <span className="hidden sm:flex flex-col leading-[1.1]">
               <span className="font-heading font-black uppercase tracking-tight text-2xl md:text-3xl text-[#D9651A] drop-shadow">
@@ -67,10 +67,10 @@ export default function Navbar() {
 
           {/* Desktop Nav */}
           <div className="hidden md:flex items-center space-x-8">
-            <a href="#home" className="text-cream hover:text-accent-orange transition-colors text-sm font-semibold tracking-wider uppercase">
+            <a href="/#home" className="text-cream hover:text-accent-orange transition-colors text-sm font-semibold tracking-wider uppercase">
               Home
             </a>
-            <a href="#hydroseeding" className="text-cream hover:text-accent-orange transition-colors text-sm font-semibold tracking-wider uppercase">
+            <a href="/#hydroseeding" className="text-cream hover:text-accent-orange transition-colors text-sm font-semibold tracking-wider uppercase">
               Hydro Seeding
             </a>
             <div className="relative" ref={dropdownRef}>
@@ -98,13 +98,13 @@ export default function Navbar() {
                 </div>
               )}
             </div>
-            <a href="#about" className="text-cream hover:text-accent-orange transition-colors text-sm font-semibold tracking-wider uppercase">
+            <a href="/#about" className="text-cream hover:text-accent-orange transition-colors text-sm font-semibold tracking-wider uppercase">
               About
             </a>
-            <a href="#gallery" className="text-cream hover:text-accent-orange transition-colors text-sm font-semibold tracking-wider uppercase">
+            <a href="/#gallery" className="text-cream hover:text-accent-orange transition-colors text-sm font-semibold tracking-wider uppercase">
               Gallery
             </a>
-            <a href="#contact" className="text-cream hover:text-accent-orange transition-colors text-sm font-semibold tracking-wider uppercase">
+            <a href="/#contact" className="text-cream hover:text-accent-orange transition-colors text-sm font-semibold tracking-wider uppercase">
               Contact
             </a>
             <a href="/excavation-land-work-faqs" className="text-cream hover:text-accent-orange transition-colors text-sm font-semibold tracking-wider uppercase">
@@ -127,7 +127,7 @@ export default function Navbar() {
       {/* Mobile Menu */}
       <div className={`md:hidden transition-all duration-300 overflow-hidden ${menuOpen ? 'max-h-[800px]' : 'max-h-0'}`}>
         <div className="bg-forest/95 backdrop-blur border-t border-cream/10 px-4 py-4 space-y-3">
-          <a href="#home" onClick={() => setMenuOpen(false)} className="block text-cream hover:text-accent-orange transition-colors text-sm font-semibold tracking-wider uppercase py-1">
+          <a href="/#home" onClick={() => setMenuOpen(false)} className="block text-cream hover:text-accent-orange transition-colors text-sm font-semibold tracking-wider uppercase py-1">
             Home
           </a>
 
@@ -156,13 +156,13 @@ export default function Navbar() {
             </div>
           </div>
 
-          <a href="#about" onClick={() => setMenuOpen(false)} className="block text-cream hover:text-accent-orange transition-colors text-sm font-semibold tracking-wider uppercase py-1">
+          <a href="/#about" onClick={() => setMenuOpen(false)} className="block text-cream hover:text-accent-orange transition-colors text-sm font-semibold tracking-wider uppercase py-1">
             About
           </a>
-          <a href="#gallery" onClick={() => setMenuOpen(false)} className="block text-cream hover:text-accent-orange transition-colors text-sm font-semibold tracking-wider uppercase py-1">
+          <a href="/#gallery" onClick={() => setMenuOpen(false)} className="block text-cream hover:text-accent-orange transition-colors text-sm font-semibold tracking-wider uppercase py-1">
             Gallery
           </a>
-          <a href="#contact" onClick={() => setMenuOpen(false)} className="block text-cream hover:text-accent-orange transition-colors text-sm font-semibold tracking-wider uppercase py-1">
+          <a href="/#contact" onClick={() => setMenuOpen(false)} className="block text-cream hover:text-accent-orange transition-colors text-sm font-semibold tracking-wider uppercase py-1">
             Contact
           </a>
           <a href="/excavation-land-work-faqs" onClick={() => setMenuOpen(false)} className="block text-cream hover:text-accent-orange transition-colors text-sm font-semibold tracking-wider uppercase py-1">
